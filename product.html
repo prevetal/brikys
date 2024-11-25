@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Adapting the page for mobile devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Prohibition of phone number recognition -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Page title -->
+		<title>Заголовок страницы</title>
+
+		<!-- Meta description -->
+		<meta name="description" content="">
+
+		<!-- Meta Keywords -->
+		<meta name="keywords" content="">
+
+		<!-- Changing the color of the mobile browser panel -->
+		<meta name="msapplication-TileColor" content="#24262C">
+		<meta name="theme-color" content="#24262C">
+
+		<!-- Connecting fonts from Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+		<!-- Connecting style files -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/ion.rangeSlider.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont big row">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<div class="catalog modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+								<span>Каталог</span>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="catalog_modal">
+
+							</div>
+						</div>
+
+						<div class="all_site modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#all_site_modal">
+								<span>Весь сайт</span>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="all_site_modal">
+
+							</div>
+						</div>
+
+						<div class="location">
+							<div class="city">
+								<button class="current">
+									<span>Рязань</span>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</button>
+							</div>
+
+							<div class="exp">Поставки во все регионы РФ</div>
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:8 (800) 505-605-6">8 (800) 505-605-6</a>
+							</div>
+
+							<button class="callback_btn modal_btn" data-modal="callback_modal">Заказать звонок</button>
+						</div>
+
+						<div class="links">
+							<div><a href="/">Контакты</a></div>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="search_modal">
+								<button type="button" class="close_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_delete"></use></svg>
+								</button>
+
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту..">
+								</form>
+							</div>
+						</div>
+
+						<a href="/" class="favorite_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+						</a>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_home"></use></svg>
+
+								<span>Главная</span>
+							</a>
+
+							<svg class="sep"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+
+							<a href="/">
+								<span>Пример хлебных крошек</span>
+							</a>
+
+							<svg class="sep"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+
+							<span class="current">Активная страница</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="product_info">
+					<div class="cont row">
+						<div class="images">
+							<div class="stickers">
+								<div class="sticker red">Новинка</div>
+								<div class="sticker yellow">Акция</div>
+								<div class="sticker">Хит</div>
+							</div>
+
+							<div class="swiper main">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+								</div>
+
+								<button class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+								</button>
+
+								<button class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+								</button>
+							</div>
+
+							<div class="swiper gallery">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img src="images/tmp/product_gallery_img.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+								</div>
+
+								<div class="info">
+									<div>Галерея домов</div>
+
+									<div class="swiper-pagination"></div>
+								</div>
+
+								<button class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+								</button>
+
+								<button class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+								</button>
+							</div>
+						</div>
+
+
+						<div class="data">
+							<div class="head">
+								<button class="favorite_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								</button>
+
+								<div class="articul">Артикул: 54546434</div>
+
+								<div class="brand">
+									<div class="label">Официальный дилер</div>
+
+									<div class="logo">
+										<img src="images/tmp/brand_info_logo.png" alt="" loading="lazy">
+									</div>
+								</div>
+							</div>
+
+							<h1 class="product_name">Клинкерный кирпич ригель-формат Skriabin Ceramics сортировка 8 полнотелый 345*85*40</h1>
+
+							<div class="prices">
+								<div class="payment_methods">
+									<label>
+										<input type="radio" name="product_payment_method" checked>
+										<div>Наличные</div>
+									</label>
+
+									<label>
+										<input type="radio" name="product_payment_method">
+										<div>Безнал с НДС</div>
+									</label>
+								</div>
+
+								<div class="border">
+									<div class="delivery_methods">
+										<label>
+											<input type="radio" name="product_delivery_method" checked>
+											<div>Самовывоз со склада</div>
+										</label>
+
+										<label>
+											<input type="radio" name="product_delivery_method">
+											<div>Рязань</div>
+										</label>
+
+										<label>
+											<input type="radio" name="product_delivery_method">
+											<div>Регионы РФ</div>
+										</label>
+									</div>
+
+									<div class="vals">
+										<div>
+											<div class="label">Цена за шт</div>
+
+											<div class="val">172.00 <small>руб.</small></div>
+
+											<div class="old">3500.40 руб</div>
+										</div>
+
+										<div>
+											<div class="label">Цена за м²</div>
+
+											<div class="val">9804.00 <small>руб.</small></div>
+
+											<div class="old">5500.40 руб</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="wall_area">
+								<div class="label">
+									<span>Площадь стен (м²)</span>
+
+									<div class="exp">*Расчет является предварительным</div>
+								</div>
+
+								<div class="field">
+									<input type="text" name="" value="" class="input" placeholder="100">
+								</div>
+
+								<div class="unit">
+									<select name="" data-placeholder=" ">
+										<option value="1" selected>м²</option>
+									</select>
+
+									<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+								</div>
+							</div>
+
+							<div class="features">
+								<div>
+									<div class="label">Общая площадь кладки</div>
+
+									<div class="val">23 м2</div>
+								</div>
+
+								<div>
+									<div class="label">Расход кирпича на 1 м2</div>
+
+									<div class="val">54 шт</div>
+								</div>
+
+								<div>
+									<div class="label">Расход кирпича на 1 м3</div>
+
+									<div class="val">812 шт</div>
+								</div>
+
+								<div>
+									<div class="label">Необходимое кол-во кирпича</div>
+
+									<div class="val">1242 шт</div>
+								</div>
+
+								<div>
+									<div class="label">Предлагаемое кол-во кирпича</div>
+
+									<div class="val">1836 шт</div>
+								</div>
+
+								<div>
+									<div class="label">Кол-во поддонов</div>
+
+									<div class="val">3 шт</div>
+								</div>
+
+								<div>
+									<div class="label">Кол-во необходимого автотранспорта</div>
+
+									<div class="val">1 шт</div>
+								</div>
+							</div>
+
+							<div class="buy">
+								<div class="amount">
+									<button type="button" class="btn minus">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+									</button>
+
+									<div class="field">
+										<input type="text" value="8714" class="input" data-minimum="1" data-maximum="99999" data-step="1" data-unit="" maxlength="5">
+
+										<div class="area">=500 м²</div>
+									</div>
+
+									<button type="button" class="btn plus">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+									</button>
+
+									<div class="unit">
+										<select name="" data-placeholder=" ">
+											<option value="1" selected>шт</option>
+										</select>
+
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor2"></use></svg>
+									</div>
+								</div>
+
+								<button class="buy_btn">
+									<span>2 500 000 руб.</span>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_buy"></use></svg>
+								</button>
+							</div>
+
+							<div class="calc_solution">
+								<div class="head">
+									<div class="title">Рассчитать кол-во раствора</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+
+										<svg><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+									</div>
+								</div>
+
+								<div class="info">
+									<div class="features">
+										<div>
+											<div class="label">Необходимое кол-во раствора</div>
+
+											<div class="val">540 кг</div>
+										</div>
+
+										<div>
+											<div class="label">Количество мешков</div>
+
+											<div class="val">20 шт</div>
+										</div>
+
+										<div>
+											<div class="label">Количество поддонов</div>
+
+											<div class="val">1 шт</div>
+										</div>
+
+										<div>
+											<div class="label">Подходящая смесь</div>
+
+											<div class="val">
+												<a href="/">vk+</a>
+											</div>
+										</div>
+									</div>
+
+									<button class="buy_btn">
+										<span>Добавить в карзину</span>
+
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_buy"></use></svg>
+									</button>
+								</div>
+							</div>
+
+							<div class="links">
+								<div><button class="btn quike_buy_btn">Купить в 1 клик</button></div>
+
+								<div><a href="/" download class="btn">Скачать PDF</a></div>
+							</div>
+
+							<div class="exp">
+								<div>* Стоимость указана с учётом доставки</div>
+
+								<div>** Цены указаны из расчёта загрузки полной машины</div>
+
+								<div>*** Минимальная партия заказа: 1 поддон</div>
+							</div>
+						</div>
+
+						<div class="line"></div>
+					</div>
+				</section>
+
+
+				<section class="product_data block small_m4 tabs_container">
+					<div class="cont">
+						<div class="tabs_wrap">
+							<div class="tabs">
+								<button data-content="#tab1" data-level="level1" class="btn active">Характеристики</button>
+
+								<button data-content="#tab2" data-level="level1" class="btn">Описание</button>
+
+								<button data-content="#tab3" data-level="level1" class="btn">О производителе</button>
+
+								<button data-content="#tab4" data-level="level1" class="btn">Доставка и оплата</button>
+
+								<button data-content="#tab5" data-level="level1" class="btn">Похожие по цене</button>
+
+								<button data-content="#tab6" data-level="level1" class="btn">Обратная связь </button>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="tab_content level1 active" id="tab1">
+								<div class="block_title">Характеристики</div>
+
+								<div class="features">
+									<div>
+										<div class="label">Марка прочности</div>
+
+										<div class="val">M 300</div>
+									</div>
+
+									<div>
+										<div class="label">Формат</div>
+
+										<div class="val">345x85x40</div>
+									</div>
+
+									<div>
+										<div class="label">Морозостойкость</div>
+
+										<div class="val">F 200</div>
+									</div>
+
+									<div>
+										<div class="label">Водопоглощение</div>
+
+										<div class="val">4 %</div>
+									</div>
+
+									<div>
+										<div class="label">Количество штук на поддоне</div>
+
+										<div class="val">655</div>
+									</div>
+
+									<div>
+										<div class="label">Количество штук в машине</div>
+
+										<div class="val">7205</div>
+									</div>
+
+									<div>
+										<div class="label">Размер</div>
+
+										<div class="val">345x85x40</div>
+									</div>
+
+									<div>
+										<div class="label">Производитель</div>
+
+										<div class="val">Skriabin Ceramics</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="tab_content level1" id="tab2">
+								<div class="block_title">Описание</div>
+
+								<div class="text_block">
+									<p>Для заказа продукции вам нужно внести всего 3% от суммы заказа, и мы ставим ваш заказ в план производства на заводе</p>
+
+									<p>За несколько дней от даты, указанной в договоре поставки, вы оплачиваете остаток, и мы переходим к этапу доставки</p>
+								</div>
+
+								<div class="channels">
+									<div class="info">
+										<div class="pre_title">Наши каналы на площадках</div>
+
+										<div class="title">Строительная кухня</div>
+									</div>
+
+									<div class="stats">
+										<div class="subscribers">
+											<div><span>+100</span> тыс.<br> подписчиков</div>
+										</div>
+
+										<div class="videos">
+											<div><span>+300</span><br> видео</div>
+										</div>
+
+										<div class="logo">
+											<img src="images/tmp/channels_logo.jpg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="links">
+										<div><a href="/" target="_blank" rel="noopener nofolloe">
+											<div class="logo">
+												<img src="images/tmp/youtube_logo.png" alt="" loading="lazy">
+											</div>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_link"></use></svg>
+										</a></div>
+
+										<div><a href="/" target="_blank" rel="noopener nofolloe">
+											<div class="logo">
+												<img src="images/tmp/vk_video_logo.png" alt="" loading="lazy">
+											</div>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_link"></use></svg>
+										</a></div>
+
+										<div><a href="/" target="_blank" rel="noopener nofolloe">
+											<div class="logo">
+												<img src="images/tmp/rutube_logo.png" alt="" loading="lazy">
+											</div>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_link"></use></svg>
+										</a></div>
+									</div>
+								</div>
+
+								<div class="gift_banner">
+									<div class="label">При комлексной покупке материалов*</div>
+
+									<div class="title">Выбери проект дома<br> в подарок!</div>
+
+									<div class="phone">
+										<div class="label">Подробности уточнйте по телефону</div>
+
+										<div class="val">
+											<a href="tel:8 800 505 60 56">8 800 505 60 56</a>
+										</div>
+									</div>
+
+									<div class="link">
+										<a href="/">
+											<div class="logo">
+												<img src="images/tmp/gift_banner_link_logo.png" alt="" loading="lazy">
+											</div>
+
+											<span>Перейти на сайт</span>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_link"></use></svg>
+										</a>
+									</div>
+
+									<div class="image">
+										<img src="images/tmp/gift_banner_img.jpg" alt="" loading="lazy">
+									</div>
+								</div>
+							</div>
+
+
+							<div class="tab_content level1" id="tab3">
+								<div class="block_title">О производителе Skriabin Ceramics</div>
+
+								<div class="text_block">
+									<p>Skriabin Ceramics – российский бренд премиальной строительной керамики, основан в 2018 году в Челябинской области. Является одним из ведущих производств брусчатки и клинкерного кирпича в России. Компания Skriabin Ceramics успешно выполняет задачи импортозамещения дорогостоящих европейских аналогов, изготавливает продукцию высочайшего качества: каждый кирпич имеет уникальную форму, отличные показатели прочности и морозостойкости, сортировка цветов производится вручную. Продукция отвечает жестким экологическим стандартам. Объём производства - 7 млн. единиц продукции в год. «Состаренный» клинкерный кирпич Skriabin Ceramics можно отнести к лучшим образцам клинкера российского производства.</p>
+								</div>
+
+								<div class="brand_link">
+									<a href="/">Подробнее о производителе Skriabin Ceramics</a>
+								</div>
+							</div>
+
+
+							<div class="tab_content level1" id="tab4">
+								<div class="block_title">Доставка и оплата</div>
+
+								<div class="text_block">
+									<p>Оформить доставку вы можете непосредственно в шоу-руме Брикус при покупке товара или при дистанционном обращении по телефону <a href="tel:8 (800) 505-605-6">8 (800) 505-605-6</a>. Подробнее о стоимости и сроках доставки вы можете ознакомиться в разделе <a href="/">Доставка и оплата</a></p>
+								</div>
+							</div>
+
+
+							<div class="tab_content level1" id="tab5">
+
+							</div>
+
+
+							<div class="tab_content level1" id="tab6">
+
+							</div>
+
+							<div class="manager">
+								<div class="photo">
+									<img src="images/tmp/manager_photo.jpg" alt="" loading="lazy">
+								</div>
+
+								<div class="info">
+									<div class="title">Поможет с выбором</div>
+
+									<div class="name">Евгения Качкина</div>
+
+									<div class="email">
+										<div class="label">E-mail</div>
+
+										<div class="val">
+											<a href="mailto:emk@brickus.ru">emk@brickus.ru</a>
+										</div>
+									</div>
+
+									<div class="phone">
+										<div class="label">Связаться с менеджером</div>
+
+										<div class="val">
+											<a href="tel:+7 (910) 578-38-38">+7 (910) 578-38-38</a>
+										</div>
+									</div>
+
+									<div class="messengers">
+										<div><a href="/" target="_blank" rel="noopener nofollow">Telegram</a></div>
+
+										<div><a href="/" target="_blank" rel="noopener nofollow">WhatsApp</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="buy_steps block small_m3">
+					<div class="cont big">
+						<div class="data">
+							<div class="cont">
+								<div class="block_head">
+									<div class="title small">Покупайте также просто, как на маркетплейсах</div>
+								</div>
+
+								<div class="row">
+									<div class="item">
+										<div class="icon">
+											<img src="images/ic_buy_step1.svg" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Оставьте заявку<br> с инетерсуемыми товарами</div>
+
+										<div class="desc">
+											<span>Не знаете точное количество, и нужна консультация?</span>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img src="images/ic_buy_step2.svg" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Наши менеджеры проверяют наличие товара на заводе-изготовителе, бронируют, оформляют все документы.</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img src="images/ic_buy_step3.svg" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Заключение договора. Запуск процесса упаковки и отправки.</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img src="images/ic_buy_step4.svg" alt="" loading="lazy">
+										</div>
+
+										<div class="name">Получаете заказ на вашей стройплощадке в любой точке России, Казахстана, Белоруссии в оговоренные сроки.</div>
+									</div>
+
+									<div class="ya_widget">
+										<div class="label">Рейтинг организации в яндекс</div>
+
+										<div class="stars">
+											<img src="images/ya_widget_stars.svg" alt="" loading="lazy">
+										</div>
+
+										<div class="rating">
+											<img src="images/ya_widget_logo.png" alt="" loading="lazy">
+
+											<div class="val"><span>5,0</span> <small>баллов</small></div>
+										</div>
+
+										<div class="title">Оставляете Ваш благодарственный отзыв</div>
+
+										<div class="link">
+											<a href="/">Оставить отзыв</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products block small_m">
+					<div class="cont big">
+						<div class="block_head center small_m">
+							<div class="title">Товары в похожей ценовой категории (+/- 10%)</div>
+						</div>
+
+						<div class="list">
+							<div class="product">
+								<div class="stickers">
+									<div class="sticker red">Новинка</div>
+									<div class="sticker yellow">Акция</div>
+									<div class="sticker">Хит</div>
+								</div>
+
+								<div class="views">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_view"></use></svg>
+
+									<span>224</span>
+								</div>
+
+								<a href="/" class="thumb">
+									<img src="images/tmp/product_thumb2.jpg" alt="" loading="lazy">
+								</a>
+
+								<div class="info">
+									<div class="name">
+										<a href="/"><span></span>Облицовочный кирпич ЛСР красный флеш с пепельной посыпкой ультра рустик 1нф</span></a>
+									</div>
+
+									<div class="features">
+										<div><span>Цвет:</span> черный</div>
+
+										<div><span>Бренд:</span> Recke</div>
+
+										<div><span>Марка прочности:</span> m200</div>
+
+										<div><span>Поверхность:</span> Гладкая</div>
+
+										<div><span>Формат:</span> 0.7 НФ</div>
+									</div>
+
+									<div class="price">
+										<div>
+											<div class="label">Цен за шт</div>
+
+											<div class="val"><b>3500.40 руб</b></div>
+											<div class="old"><b>3500.40 руб</b></div>
+										</div>
+
+										<div>
+											<div class="label">Цен за м2</div>
+
+											<div class="val">5500.40 руб</div>
+											<div class="old">5500.40 руб</div>
+										</div>
+									</div>
+
+									<div class="btns">
+										<a href="/" class="link">
+											<span>Подробнее</span>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a>
+
+										<button class="buy_btn">В корзину</button>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="stickers">
+									<div class="sticker red">Новинка</div>
+									<div class="sticker yellow">Акция</div>
+									<div class="sticker">Хит</div>
+								</div>
+
+								<div class="views">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_view"></use></svg>
+
+									<span>224</span>
+								</div>
+
+								<a href="/" class="thumb">
+									<img src="images/tmp/product_thumb1.jpg" alt="" loading="lazy">
+								</a>
+
+								<div class="info">
+									<div class="name">
+										<a href="/"><span>Облицовочный кирпич ЛСР красный флеш с пепельной посыпкой ультра рустик 1нф</span></a>
+									</div>
+
+									<div class="features">
+										<div><span>Цвет:</span> черный</div>
+
+										<div><span>Бренд:</span> Recke</div>
+
+										<div><span>Марка прочности:</span> m200</div>
+
+										<div><span>Поверхность:</span> Гладкая</div>
+
+										<div><span>Формат:</span> 0.7 НФ</div>
+									</div>
+
+									<div class="price">
+										<div>
+											<div class="label">Цен за шт</div>
+
+											<div class="val"><b>3500.40 руб</b></div>
+										</div>
+
+										<div>
+											<div class="label">Цен за м2</div>
+
+											<div class="val">5500.40 руб</div>
+										</div>
+									</div>
+
+									<div class="btns">
+										<a href="/" class="link">
+											<span>Подробнее</span>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a>
+
+										<button class="buy_btn">В корзину</button>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="stickers">
+									<div class="sticker red">Новинка</div>
+									<div class="sticker yellow">Акция</div>
+									<div class="sticker">Хит</div>
+								</div>
+
+								<div class="views">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_view"></use></svg>
+
+									<span>224</span>
+								</div>
+
+								<a href="/" class="thumb">
+									<img src="images/tmp/product_thumb3.jpg" alt="" loading="lazy">
+								</a>
+
+								<div class="info">
+									<div class="name">
+										<a href="/"><span>Облицовочный кирпич ЛСР красный флеш с пепельной посыпкой ультра рустик 1нф</span></a>
+									</div>
+
+									<div class="features">
+										<div><span>Цвет:</span> черный</div>
+
+										<div><span>Бренд:</span> Recke</div>
+
+										<div><span>Марка прочности:</span> m200</div>
+
+										<div><span>Поверхность:</span> Гладкая</div>
+
+										<div><span>Формат:</span> 0.7 НФ</div>
+									</div>
+
+									<div class="price">
+										<div>
+											<div class="label">Цен за шт</div>
+
+											<div class="val"><b>3500.40 руб</b></div>
+											<div class="old"><b>3500.40 руб</b></div>
+										</div>
+
+										<div>
+											<div class="label">Цен за м2</div>
+
+											<div class="val">5500.40 руб</div>
+											<div class="old">5500.40 руб</div>
+										</div>
+									</div>
+
+									<div class="btns">
+										<a href="/" class="link">
+											<span>Подробнее</span>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a>
+
+										<button class="buy_btn">В корзину</button>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="stickers">
+									<div class="sticker red">Новинка</div>
+									<div class="sticker yellow">Акция</div>
+									<div class="sticker">Хит</div>
+								</div>
+
+								<div class="views">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_view"></use></svg>
+
+									<span>224</span>
+								</div>
+
+								<a href="/" class="thumb">
+									<img src="images/tmp/product_thumb2.jpg" alt="" loading="lazy">
+								</a>
+
+								<div class="info">
+									<div class="name">
+										<a href="/"><span></span>Облицовочный кирпич ЛСР красный флеш с пепельной посыпкой ультра рустик 1нф</span></a>
+									</div>
+
+									<div class="features">
+										<div><span>Цвет:</span> черный</div>
+
+										<div><span>Бренд:</span> Recke</div>
+
+										<div><span>Марка прочности:</span> m200</div>
+
+										<div><span>Поверхность:</span> Гладкая</div>
+
+										<div><span>Формат:</span> 0.7 НФ</div>
+									</div>
+
+									<div class="price">
+										<div>
+											<div class="label">Цен за шт</div>
+
+											<div class="val"><b>3500.40 руб</b></div>
+											<div class="old"><b>3500.40 руб</b></div>
+										</div>
+
+										<div>
+											<div class="label">Цен за м2</div>
+
+											<div class="val">5500.40 руб</div>
+											<div class="old">5500.40 руб</div>
+										</div>
+									</div>
+
+									<div class="btns">
+										<a href="/" class="link">
+											<span>Подробнее</span>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a>
+
+										<button class="buy_btn">В корзину</button>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="stickers">
+									<div class="sticker red">Новинка</div>
+									<div class="sticker yellow">Акция</div>
+									<div class="sticker">Хит</div>
+								</div>
+
+								<div class="views">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_view"></use></svg>
+
+									<span>224</span>
+								</div>
+
+								<a href="/" class="thumb">
+									<img src="images/tmp/product_thumb2.jpg" alt="" loading="lazy">
+								</a>
+
+								<div class="info">
+									<div class="name">
+										<a href="/"><span></span>Облицовочный кирпич ЛСР красный флеш с пепельной посыпкой ультра рустик 1нф</span></a>
+									</div>
+
+									<div class="features">
+										<div><span>Цвет:</span> черный</div>
+
+										<div><span>Бренд:</span> Recke</div>
+
+										<div><span>Марка прочности:</span> m200</div>
+
+										<div><span>Поверхность:</span> Гладкая</div>
+
+										<div><span>Формат:</span> 0.7 НФ</div>
+									</div>
+
+									<div class="price">
+										<div>
+											<div class="label">Цен за шт</div>
+
+											<div class="val"><b>3500.40 руб</b></div>
+											<div class="old"><b>3500.40 руб</b></div>
+										</div>
+
+										<div>
+											<div class="label">Цен за м2</div>
+
+											<div class="val">5500.40 руб</div>
+											<div class="old">5500.40 руб</div>
+										</div>
+									</div>
+
+									<div class="btns">
+										<a href="/" class="link">
+											<span>Подробнее</span>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a>
+
+										<button class="buy_btn">В корзину</button>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="stickers">
+									<div class="sticker red">Новинка</div>
+									<div class="sticker yellow">Акция</div>
+									<div class="sticker">Хит</div>
+								</div>
+
+								<div class="views">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_view"></use></svg>
+
+									<span>224</span>
+								</div>
+
+								<a href="/" class="thumb">
+									<img src="images/tmp/product_thumb1.jpg" alt="" loading="lazy">
+								</a>
+
+								<div class="info">
+									<div class="name">
+										<a href="/"><span>Облицовочный кирпич ЛСР красный флеш с пепельной посыпкой ультра рустик 1нф</span></a>
+									</div>
+
+									<div class="features">
+										<div><span>Цвет:</span> черный</div>
+
+										<div><span>Бренд:</span> Recke</div>
+
+										<div><span>Марка прочности:</span> m200</div>
+
+										<div><span>Поверхность:</span> Гладкая</div>
+
+										<div><span>Формат:</span> 0.7 НФ</div>
+									</div>
+
+									<div class="price">
+										<div>
+											<div class="label">Цен за шт</div>
+
+											<div class="val"><b>3500.40 руб</b></div>
+										</div>
+
+										<div>
+											<div class="label">Цен за м2</div>
+
+											<div class="val">5500.40 руб</div>
+										</div>
+									</div>
+
+									<div class="btns">
+										<a href="/" class="link">
+											<span>Подробнее</span>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a>
+
+										<button class="buy_btn">В корзину</button>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="get_free block small_m">
+					<div class="cont big">
+						<div class="block_head center">
+							<div class="title small">Покупая в брикус, вы покупаете<br> не материалы, а многолетнюю экспертизу<br> и множество услуг вроде</div>
+						</div>
+
+						<div class="row">
+							<div class="col">
+								<div class="item item1">
+									<div class="title">Бесплатный<br> проект дома</div>
+
+									<div class="desc">создайте свой идеальный дом с помощью наших специалистов</div>
+
+									<div class="thumb">
+										<img src="images/tmp/get_free_thumb1.jpg" alt="" loading="lazy">
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<button class="callback_btn modal_btn" data-modal="callback_modal">
+									<span>Связаться с нами</span>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</button>
+
+								<div class="item item2">
+									<div class="title">Бесплатная визуализация</div>
+
+									<div class="desc">Визуализируйте свой проект дома: бесплатная помощь в выборе кирпичей</div>
+
+									<div class="thumb">
+										<img src="images/tmp/get_free_thumb2.jpg" alt="" loading="lazy">
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="item item3">
+									<div class="title">Бесплатный<br> подбор<br> материалов</div>
+
+									<div class="desc">обеспечьте успех вашего строительного проекта с помощью наших экспертов</div>
+
+									<div class="thumb">
+										<img src="images/tmp/get_free_thumb3.png" alt="" loading="lazy">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="work_together block smallest_m">
+					<div class="cont big">
+						<div class="data">
+							<div class="cont row">
+								<div class="info">
+									<div class="title">Давайте работать вместе</div>
+
+									<div class="desc">С 2009 года приносим Мир вашему дому и хороший кирпич!</div>
+								</div>
+
+								<div class="items">
+									<div class="item item1 modal_btn" data-modal="feedback_modal">
+										<div class="title">Написать руководителю</div>
+
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/work_together_thumb1.png" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<div class="item item2 modal_btn" data-modal="callback_modal">
+										<div class="title">По вопросам сотрудничесва</div>
+
+										<div class="desc">Вы архитектор или застройщик? Предлагаем сотрудничество!</div>
+
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/work_together_thumb2.svg" alt="" loading="lazy">
+										</div>
+									</div>
+
+									<a href="/" class="item item3">
+										<div class="title">Не нашли нужный товар?</div>
+
+										<div class="desc">Это неудивительно,<br> на сайте представлено только 20% от возможного ассортимента.</div>
+
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_arrow_link"></use></svg>
+										</div>
+
+										<div class="thumb">
+											<img src="images/tmp/work_together_thumb3.svg" alt="" loading="lazy">
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<img src="images/tmp/bg_work_together.jpg" alt="" loading="lazy" class="bg">
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="top">
+					<div class="cont big row">
+						<div class="logo">
+							<img src="images/logo_white.png" alt="">
+						</div>
+
+						<div class="all_country">Поставки во все регионы РФ</div>
+
+						<div class="phone">
+							<div class="label">Многоканальный (звонок по РФ бесплатный)</div>
+
+							<div class="val">
+								<a href="tel:8 (800) 505-605-6">8 (800) 505-605-6</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="line"></div>
+
+				<div class="data">
+					<div class="cont big row">
+						<div class="info">
+							<div class="text">
+								<p>Информация, представленная на сайте brickus.ru, носит исключительно ознакомительный характер и ни при каких условиях не может считаться публичной офертой.</p>
+
+								<p>Точные сведения о ценах, условиях продажи и доставки вы можете получить у наших менеджеров.</p>
+							</div>
+
+							<div class="line"></div>
+
+							<div class="logos">
+								<div><img src="images/tmp/footer_logo1.png" alt="" loading="lazy"></div>
+
+								<div><img src="images/tmp/footer_logo2.png" alt="" loading="lazy"></div>
+							</div>
+						</div>
+
+						<div class="menu">
+							<div><a href="/">Главная</a></div>
+
+							<div><a href="/">Как купить</a></div>
+
+							<div><a href="/">База знаний</a></div>
+
+							<div><a href="/">Фотогалерея</a></div>
+
+							<div><a href="/">Оплата и доставка</a></div>
+
+							<div><a href="/">Производители</a></div>
+
+							<div><a href="/">Услуги</a></div>
+
+							<div><a href="/">Вопрос ответ</a></div>
+
+							<div><a href="/">Новости</a></div>
+
+							<div><a href="/">Акции</a></div>
+
+							<div><a href="/">Обмен и возврат</a></div>
+						</div>
+
+						<div class="links">
+							<div class="title">О компании</div>
+
+							<div class="items">
+								<div><a href="/">О компании</a></div>
+
+								<div><a href="/">Реквизиты</a></div>
+
+								<div><a href="/">Вакансии</a></div>
+
+								<div><a href="/">Контакты</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">Каталог</div>
+
+							<div class="items">
+								<div><a href="/">Кирпич</a></div>
+
+								<div><a href="/">Строительные блоки</a></div>
+
+								<div><a href="/">Кровля, водосточные системы</a></div>
+
+								<div><a href="/">Керамическая плитка</a></div>
+
+								<div><a href="/">Подоконники</a></div>
+
+								<div><a href="/">Тротуарная плитка, ступени</a></div>
+
+								<div><a href="/">Строительные смеси, клеи, затирка</a></div>
+
+								<div><a href="/">Распродажа со склада</a></div>
+
+								<div><a href="/">Прочее</a></div>
+							</div>
+						</div>
+
+						<div class="contacts">
+							<div class="work_time">
+								<div class="title">График работы</div>
+
+								<div class="val">
+									<div>Пн-Пт: 9:00 — 19:00</div>
+
+									<div>Суббота: 10:00 — 16:00</div>
+
+									<div>Воскресенье: выходной<br> (или по записи)</div>
+								</div>
+							</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_tg"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="line"></div>
+
+				<div class="bottom">
+					<div class="cont big row">
+						<div class="copyright">&copy; Все права защищены</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Пользовательское соглашение</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">
+								Сделано в: <span>Pushkin</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_link"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<!-- Connecting javascript files -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/nice-select2.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
