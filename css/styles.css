@@ -369,7 +369,7 @@ button
     width: 100%;
     height: 100%;
 
-    background: rgba(36, 38, 44, .50);
+    background: rgba(16, 17, 21, .80);
 }
 
 
@@ -621,7 +621,7 @@ header
     font-family: var(--font_family2);
 
     position: relative;
-    z-index: 9;
+    z-index: 90;
     top: 0;
     left: 0;
 
@@ -710,6 +710,8 @@ header .all_site
 
 header .all_site .btn
 {
+    position: relative;
+
     display: flex;
     align-content: center;
     align-items: center;
@@ -720,6 +722,7 @@ header .all_site .btn
     height: 60px;
     padding: 0 30px;
 
+    transition: .2s linear;
     text-align: left;
 
     border-radius: 8px;
@@ -733,6 +736,201 @@ header .all_site .btn .icon
 
     width: 22px;
     height: 22px;
+}
+
+
+header .all_site .btn .icon + .icon
+{
+    display: none;
+
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+
+header .all_site .btn.active:hover,
+header .all_site .btn.active.active
+{
+    z-index: 51;
+
+    color: var(--text_color);
+    background: #fff;
+}
+
+
+header .all_site .btn.active .icon
+{
+    display: none;
+}
+
+header .all_site .btn.active .icon + .icon
+{
+    display: block;
+}
+
+
+header .all_site .mini_modal
+{
+    font-family: var(--font_family);
+
+    width: 460px;
+    margin-top: 20px;
+    padding: 30px;
+
+    color: var(--text_color);
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+header .all_site .links
+{
+    font-size: 34px;
+
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding: 20px;
+
+    color: #000;
+
+    gap: 7px;
+}
+
+
+header .all_site .phone
+{
+    margin: 20px 20px 0;
+    padding-top: 30px;
+
+    border-top: 1px solid #d9d9d9;
+}
+
+
+header .all_site .phone .label
+{
+    font-size: 14px;
+
+    margin-bottom: 10px;
+
+    color: rgba(36, 38, 44, .50);
+}
+
+
+header .all_site .phone a
+{
+    font-size: 40px;
+
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+header .all_site .socials
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: 20px;
+    padding: 0 20px;
+
+    gap: 10px;
+}
+
+
+header .all_site .socials a
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+
+    text-decoration: none;
+
+    color: var(--text_color);
+    border: 1px solid rgba(36, 38, 44, .12);
+    border-radius: 50%;
+}
+
+
+header .all_site .socials .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+}
+
+
+header .all_site .feedback_btn
+{
+    font-weight: 600;
+    line-height: 24px;
+
+    position: relative;
+
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 30px;
+    padding: 25px;
+
+    text-align: left;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #c22c47;
+}
+
+
+header .all_site .feedback_btn .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+
+    color: var(--text_color);
+    border-radius: 50%;
+    background: #fff;
+}
+
+
+header .all_site .feedback_btn .icon svg
+{
+    display: block;
+
+    width: 28px;
+    height: 28px;
+}
+
+
+header .all_site .feedback_btn span
+{
+    display: block;
+    align-self: center;
+
+    width: calc(100% - 105px);
 }
 
 

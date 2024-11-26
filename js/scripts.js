@@ -565,6 +565,10 @@ document.addEventListener('DOMContentLoaded', function () {
 			$(this).removeClass('active')
 			$('.mini_modal').removeClass('active')
 
+			if($(this).closest('header').length) {
+				$('header .overlay').fadeOut(200)
+			}
+
 			if (is_touch_device()) $('body').css('cursor', 'default')
 		} else {
 			$('.mini_modal_btn').removeClass('active')
@@ -572,6 +576,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 			$('.mini_modal').removeClass('active')
 			$(modalId).addClass('active')
+
+			if($(this).closest('header').length) {
+				$('header .overlay').fadeIn(200)
+			}
 
 			if (is_touch_device()) $('body').css('cursor', 'pointer')
 		}
