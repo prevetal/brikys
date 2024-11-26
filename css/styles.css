@@ -672,6 +672,8 @@ header .catalog
 
 header .catalog .btn
 {
+    position: relative;
+
     display: flex;
     align-content: center;
     align-items: center;
@@ -696,6 +698,197 @@ header .catalog .btn .icon
 
     width: 8px;
     height: 14px;
+}
+
+
+header .catalog .btn .icon + .icon
+{
+    display: none;
+
+    width: 12px;
+    height: 12px;
+}
+
+
+header .catalog .btn:hover,
+header .catalog .btn.active
+{
+    z-index: 51;
+}
+
+
+header .catalog .btn.active .icon
+{
+    display: none;
+}
+
+header .catalog .btn.active .icon + .icon
+{
+    display: block;
+}
+
+
+header .catalog .mini_modal
+{
+    font-family: var(--font_family);
+
+    width: 1280px;
+    margin-top: 20px;
+    padding: 40px;
+
+    color: var(--text_color);
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+header .catalog .main
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 420px;
+    max-width: 100%;
+    margin-right: auto;
+}
+
+
+header .catalog .main a
+{
+    font-size: 18px;
+    font-weight: 600;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 16px 20px;
+
+    transition: .2s linear;
+    text-decoration: none;
+
+    color: currentColor;
+    border-radius: 8px;
+}
+
+
+header .catalog .main a .icon
+{
+    display: block;
+
+    width: 12px;
+    height: 8px;
+    margin-left: auto;
+
+    transform: rotate(-90deg);
+
+    color: #c22c47;
+}
+
+
+header .catalog .main a:hover,
+header .catalog .main a.active
+{
+    background: rgba(36, 38, 44, .06);
+}
+
+
+header .catalog .sub
+{
+    display: none;
+
+    width: calc(100% - 420px);
+    padding: 0 100px 0 80px;
+}
+
+
+header .catalog .columns
+{
+    column-gap: 80px;
+    column-count: 2;
+}
+
+
+header .catalog .columns > *
+{
+    transform: translateZ(0);
+
+    --webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+
+header .catalog .columns > * + *
+{
+    margin-top: 20px;
+}
+
+
+header .catalog .item
+{
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgba(36, 38, 44, .12);
+}
+
+
+header .catalog .item .name
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+header .catalog .item .name a
+{
+    display: inline-block;
+
+    vertical-align: top;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+header .catalog .item .items
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 12px;
+    padding-left: 10px;
+
+    gap: 10px;
+}
+
+
+header .catalog .item .items a
+{
+    display: inline-block;
+
+    transition: color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+header .catalog .item .items a:hover,
+header .catalog .item .items a.active
+{
+    text-decoration: underline;
+
+    color: #c22c47;
+
+    text-decoration-thickness: 1px;
 }
 
 

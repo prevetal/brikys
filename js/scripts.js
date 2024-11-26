@@ -713,6 +713,18 @@ document.addEventListener('DOMContentLoaded', function () {
 		parent.toggleClass('active')
 		parent.find('.info').slideToggle(300)
 	})
+
+
+	// Catalog
+	$('header .catalog .main a').mouseenter(function(e) {
+		let sub = $(this).data('sub')
+
+		$('header .catalog .main a').removeClass('active')
+		$(this).addClass('active')
+
+		$('header .catalog .sub').hide()
+		$('header .catalog .' + sub).fadeIn(300)
+	})
 })
 
 
