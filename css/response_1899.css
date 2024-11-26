@@ -1,0 +1,161 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont.big
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .catalog
+    {
+        width: 260px;
+        margin-left: 24px;
+    }
+
+
+    header .catalog .btn
+    {
+        height: 56px;
+        padding: 0 24px;
+    }
+
+
+    header .all_site
+    {
+        width: 220px;
+    }
+
+
+    header .all_site .btn
+    {
+        height: 56px;
+        padding: 0 24px;
+    }
+
+
+    header .location
+    {
+        margin-left: auto;
+    }
+
+
+    header .contacts
+    {
+        margin-left: 32px;
+    }
+
+
+    header .search
+    {
+        margin-left: 28px;
+    }
+
+
+    header .favorite_link
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*--------------
+        Get free
+    --------------*/
+    .get_free .item
+    {
+        height: 448px;
+        padding: 40px;
+    }
+
+
+    .get_free .item .title
+    {
+        font-size: 32px;
+
+        width: 320px;
+    }
+
+
+    .get_free .callback_btn
+    {
+        height: 56px;
+    }
+
+
+
+    /*-------------------
+        Work together
+    -------------------*/
+    .work_together .data
+    {
+        padding: 80px 24px;
+    }
+
+
+    .work_together .info .title
+    {
+        font-size: 76px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .top
+    {
+        padding-top: 80px;
+    }
+
+
+    footer .all_country
+    {
+        margin-left: 120px;
+    }
+
+
+    footer .phone
+    {
+        margin-left: 160px;
+    }
+
+
+    footer .menu
+    {
+        font-size: 20px;
+
+        width: auto;
+    }
+
+
+    footer .links
+    {
+        width: auto;
+    }
+
+
+    footer .contacts
+    {
+        width: 188px;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        margin-left: 88px;
+    }
+
+
+    footer .creator
+    {
+        width: 548px;
+    }
+}
