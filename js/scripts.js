@@ -4,13 +4,13 @@ BODY = document.getElementsByTagName('body')[0]
 
 
 document.addEventListener('DOMContentLoaded', function () {
-	// Main slider
-	let mainSlider = document.querySelector('.main_slider .swiper')
+	// First section slider
+	let firstSectionSlider = document.querySelector('.first_section .swiper')
 
-	if (mainSlider) {
-		new Swiper('.main_slider .swiper', {
+	if (firstSectionSlider) {
+		new Swiper('.first_section .swiper', {
 			loop: true,
-			speed: 750,
+			speed: 500,
 			watchSlidesProgress: true,
 			slideActiveClass: 'active',
 			slideVisibleClass: 'visible',
