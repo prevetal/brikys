@@ -299,6 +299,12 @@
     }
 
 
+    .block_head .desc
+    {
+        line-height: 21px;
+    }
+
+
     .block_head .title.mob_small
     {
         font-size: var(--font_size_title_small);
@@ -918,6 +924,357 @@
     .buy_steps .ya_widget
     {
         margin-top: 0;
+    }
+
+
+
+    /*----------------
+        About page
+    ----------------*/
+    .about_page
+    {
+        margin-bottom: 310px;
+    }
+
+
+
+    .about_page .bg_img
+    {
+        position: relative;
+        top: 0;
+
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .about_page .head
+    {
+        margin-bottom: 40px;
+        padding-top: 12px;
+    }
+
+
+    .about_page .head .data
+    {
+        width: 100%;
+    }
+
+
+    .about_page .head .title
+    {
+        font-size: 52px;
+    }
+
+
+    .about_page .head .feedback_btn
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+
+        margin: 120px auto 0;
+    }
+
+
+
+    .about_page .commercial_developers
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .about_page .commercial_developers .item
+    {
+        padding: 24px;
+    }
+
+
+    .about_page .commercial_developers .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .about_page .commercial_developers .item .desc
+    {
+        line-height: 21px;
+
+        margin-top: 24px;
+    }
+
+
+    .about_page .commercial_developers .line
+    {
+        margin-top: 60px;
+    }
+
+
+
+    .about_page .private_buyers
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .about_page .private_buyers .col_left
+    {
+        order: 2;
+
+        width: 100%;
+        height: 100vw;
+        min-height: 520px;
+        margin-top: 40px;
+        padding: 40px;
+    }
+
+
+    .about_page .private_buyers .img
+    {
+        object-position: 50% 0;
+    }
+
+
+    .about_page .private_buyers .col_right
+    {
+        width: 100%;
+    }
+
+
+    .about_page .private_buyers .item + .item
+    {
+        margin-top: 24px;
+    }
+
+
+    .about_page .private_buyers .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    .about_page .images
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    .about_page .mission .cont
+    {
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        gap: 0;
+    }
+
+
+    .about_page .mission .data
+    {
+        margin: 0 auto -68px;
+    }
+
+
+    .about_page .mission .image
+    {
+        margin: 0 auto;
+    }
+
+
+
+    .about_page .history
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .about_page .history .item + .item
+    {
+        margin-top: 48px;
+    }
+
+
+    .about_page .history .year
+    {
+        font-size: 172px;
+    }
+
+
+    .about_page .history .item.gold .year:before
+    {
+        margin-right: 12px;
+
+        transform: scale(.75);
+    }
+
+
+    .about_page .history .item.gold .year:after
+    {
+        margin-left: 12px;
+
+        transform: scale(-1, 1) scale(.75);
+    }
+
+
+    .about_page .history .desc
+    {
+        font-size: 18px;
+
+        width: 360px;
+        margin-top: -8px;
+    }
+
+
+
+    .about_page .bottom
+    {
+        margin-bottom: -220px;
+    }
+
+
+
+    .about_page .bottom .channels .title
+    {
+        font-size: var(--font_size_title_small);
+        line-height: 100%;
+    }
+
+
+    .about_page .bottom .channels .links
+    {
+        margin-top: 40px;
+
+        gap: 8px;
+    }
+
+    .about_page .bottom .channels .links a
+    {
+        width: 94px;
+        padding: 8px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .swiper-button-next,
+    .benefits .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .benefits .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .benefits .item .number
+    {
+        font-size: 22px;
+        line-height: 60px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .row > *
+    {
+        width: calc(20% - 12px);
+    }
+
+
+    .clients .item .logo
+    {
+        height: 130px;
+    }
+
+
+
+    /*-------------
+        Letters
+    -------------*/
+    .letters .grid
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .letters .grid::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .letters .grid::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .letters .grid > *
+    {
+        display: inline-block;
+
+        width: 208px;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+
+    .letters .grid > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+    .letters .block_head .desc
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .letters .item .thumb
+    {
+        height: 280px;
+    }
+
+
+    .letters .item .icon
+    {
+        width: 64px;
+        height: 64px;
     }
 
 

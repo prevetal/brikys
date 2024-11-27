@@ -96,6 +96,14 @@
 
 
 
+    .swiper-horizontal > .swiper-scrollbar,
+    .swiper-scrollbar.swiper-scrollbar-horizontal
+    {
+        margin-top: 80px;
+    }
+
+
+
     /*----------------
         Pagination
     ----------------*/
@@ -967,6 +975,276 @@
     {
         margin-top: -52px;
         padding: 20px;
+    }
+
+
+
+    /*----------------
+        About page
+    ----------------*/
+    .about_page
+    {
+        margin-bottom: 400px;
+    }
+
+
+
+    .about_page .bg_img
+    {
+        width: 628px;
+    }
+
+
+    .about_page .head
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .about_page .head .title
+    {
+        font-size: 64px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .about_page .head .feedback_btn
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        width: 260px;
+        height: 260px;
+        padding: 24px;
+    }
+
+
+
+    .about_page .commercial_developers .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .about_page .commercial_developers .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .about_page .commercial_developers .item
+    {
+        padding: 40px;
+    }
+
+
+    .about_page .commercial_developers .item .name
+    {
+        font-size: 32px;
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    .about_page .private_buyers
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .about_page .private_buyers .col_left
+    {
+        width: calc(50% - 16px);
+        padding: 48px;
+    }
+
+
+    .about_page .private_buyers .col_right
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .about_page .private_buyers .item
+    {
+        padding-bottom: 23px;
+    }
+
+
+    .about_page .private_buyers .item + .item
+    {
+        margin-top: 40px;
+    }
+
+
+    .about_page .private_buyers .item .name
+    {
+        font-size: 24px;
+
+        min-height: 32px;
+    }
+
+
+    .about_page .private_buyers .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .about_page .images .swiper-button-prev
+    {
+        left: 24px;
+    }
+
+    .about_page .images .swiper-button-next
+    {
+        right: 24px;
+    }
+
+
+
+    .about_page .mission .data
+    {
+        width: 480px;
+        height: 480px;
+        padding: 68px 68px 100px;
+    }
+
+
+    .about_page .mission .image
+    {
+        width: 480px;
+        height: 480px;
+    }
+
+
+
+    .about_page .history
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .about_page .history .item + .item
+    {
+        margin-top: 80px;
+    }
+
+
+    .about_page .history .year
+    {
+        font-size: 260px;
+    }
+
+
+    .about_page .history .desc
+    {
+        font-size: 22px;
+
+        width: 440px;
+    }
+
+
+
+    .about_page .bottom
+    {
+        margin-bottom: -260px;
+    }
+
+
+    .about_page .bottom .video_link
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .about_page .bottom .video_link .btn
+    {
+        padding: 12px 24px 12px 12px;
+    }
+
+
+    .about_page .bottom .video_link .btn .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .about_page .bottom .channels
+    {
+        width: calc(50% - 12px);
+        padding: 40px;
+    }
+
+
+    .about_page .bottom .channels .pre_title
+    {
+        font-size: 18px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .about_page .bottom .channels .stats
+    {
+        margin-top: 60px;
+    }
+
+
+    .about_page .bottom .channels .links
+    {
+        margin-top: 120px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .item .name
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .item .logo
+    {
+        height: 158px;
+    }
+
+
+
+    /*-------------
+        Letters
+    -------------*/
+    .letters .block_head .desc
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .letters .grid
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .letters .grid > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
     }
 
 

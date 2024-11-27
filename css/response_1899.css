@@ -424,6 +424,31 @@
 
 
 
+    /*----------------
+        About page
+    ----------------*/
+    .about_page .bg_img
+    {
+        width: 664px;
+    }
+
+
+    .about_page .head
+    {
+        margin-bottom: 160px;
+        padding-top: 32px;
+    }
+
+
+    .about_page .head .title
+    {
+        font-size: 76px;
+
+        margin-bottom: 52px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

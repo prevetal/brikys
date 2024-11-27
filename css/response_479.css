@@ -67,6 +67,12 @@
     }
 
 
+    .block_head .title
+    {
+        line-height: 110%;
+    }
+
+
     .block_head .title.mob_middle
     {
         font-size: var(--font_size_title_middle);
@@ -841,6 +847,151 @@
     {
         height: 44px;
         padding: 8px 25px;
+    }
+
+
+
+    /*----------------
+        About page
+    ----------------*/
+    .about_page .head .title
+    {
+        font-size: 38px;
+    }
+
+
+
+    .about_page .commercial_developers .item
+    {
+        padding: 24px 20px;
+    }
+
+
+    .about_page .commercial_developers .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    .about_page .private_buyers .col_left
+    {
+        padding: 24px 20px;
+    }
+
+
+
+    .about_page .mission .data
+    {
+        width: 332px;
+        height: 332px;
+        margin-bottom: -60px;
+    }
+
+
+    .about_page .mission .title
+    {
+        font-size: var(--font_size_title_small);
+    }
+
+
+    .about_page .mission .text
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .about_page .mission .image
+    {
+        width: 332px;
+        height: 332px;
+    }
+
+
+
+    .about_page .history .year
+    {
+        font-size: 120px;
+    }
+
+
+    .about_page .history .item.gold .year:before,
+    .about_page .history .item.gold .year:after
+    {
+        display: none;
+    }
+
+
+    .about_page .history .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    .about_page .bottom .channels
+    {
+        padding: 24px 20px;
+    }
+
+
+    .about_page .bottom .channels .stats .subscribers,
+    .about_page .bottom .channels .stats .videos,
+    .about_page .bottom .channels .stats .logo
+    {
+        font-size: 13px;
+
+        width: 108px;
+        height: 108px;
+    }
+
+
+    .about_page .bottom .channels .links a
+    {
+        width: 93px;
+    }
+
+
+    .about_page .bottom .channels .links .logo
+    {
+        width: auto;
+        height: auto;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .swiper-slide
+    {
+        width: 310px;
+    }
+
+
+    .benefits .item .desc
+    {
+        line-height: 18px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .row > *
+    {
+        width: calc(33.333% - 12px);
+    }
+
+
+    .clients .item .logo
+    {
+        height: 78px;
+        padding: 7px;
     }
 
 

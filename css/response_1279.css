@@ -61,6 +61,14 @@
 
 
 
+    .swiper-horizontal > .swiper-scrollbar,
+    .swiper-scrollbar.swiper-scrollbar-horizontal
+    {
+        margin-top: 48px;
+    }
+
+
+
     /*--------------
         Fancybox
     --------------*/
@@ -1188,6 +1196,262 @@
     .buy_steps .ya_widget
     {
         margin-top: -24px;
+    }
+
+
+
+    /*----------------
+        About page
+    ----------------*/
+    .about_page
+    {
+        margin-bottom: 272px;
+    }
+
+
+
+    .about_page .bg_img
+    {
+        top: 95px;
+
+        width: 608px;
+
+        opacity: .5;
+    }
+
+
+    .about_page .head
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .about_page .head .data
+    {
+        width: calc(100% - 268px);
+    }
+
+
+    .about_page .head .title
+    {
+        font-size: 56px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .about_page .head .feedback_btn
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        width: 220px;
+        height: 220px;
+    }
+
+
+
+    .about_page .commercial_developers .item
+    {
+        padding: 32px;
+    }
+
+
+    .about_page .commercial_developers .item .name
+    {
+        font-size: 28px;
+    }
+
+
+    .about_page .commercial_developers .item .number
+    {
+        font-size: 22px;
+        line-height: 72px;
+
+        width: 72px;
+        height: 72px;
+    }
+
+
+
+    .about_page .private_buyers
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .about_page .private_buyers .col_left
+    {
+        width: calc(50% - 12px);
+        padding: 32px;
+    }
+
+
+    .about_page .private_buyers .col_right
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .about_page .private_buyers .item + .item
+    {
+        margin-top: 32px;
+    }
+
+
+    .about_page .private_buyers .item .name
+    {
+        font-size: 22px;
+
+        min-height: 30px;
+    }
+
+
+
+    .about_page .mission .data
+    {
+        width: 440px;
+        height: 440px;
+        padding: 60px 60px 80px;
+    }
+
+
+    .about_page .mission .image
+    {
+        width: 440px;
+        height: 440px;
+    }
+
+
+
+    .about_page .history
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .about_page .history .item + .item
+    {
+        margin-top: 60px;
+    }
+
+
+    .about_page .history .year
+    {
+        font-size: 220px;
+    }
+
+
+    .about_page .history .desc
+    {
+        font-size: 20px;
+
+        width: 400px;
+        margin-top: -12px;
+    }
+
+
+
+    .about_page .bottom
+    {
+        margin-bottom: -188px;
+    }
+
+
+    .about_page .bottom .video_link .btn
+    {
+        padding: 8px 24px 8px 8px;
+    }
+
+
+    .about_page .bottom .video_link .btn .icon
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .about_page .bottom .channels
+    {
+        padding: 24px;
+    }
+
+
+    .about_page .bottom .channels .pre_title
+    {
+        font-size: 16px;
+    }
+
+
+    .about_page .bottom .channels .stats
+    {
+        margin-top: 40px;
+    }
+
+
+    .about_page .bottom .channels .links
+    {
+        margin-top: 48px;
+
+        gap: 12px;
+    }
+
+    .about_page .bottom .channels .links a
+    {
+        width: 120px;
+        max-width: 100%;
+        padding: 8px 12px;
+    }
+
+
+    .about_page .bottom .channels .links .icon
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .item .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+
+    .clients .row > *
+    {
+        width: calc(16.666% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .clients .item .logo
+    {
+        height: 146px;
+    }
+
+
+
+    /*-------------
+        Letters
+    -------------*/
+    .letters .item .thumb
+    {
+        height: 300px;
     }
 
 
