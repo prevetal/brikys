@@ -672,14 +672,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	// Requisite
-	$('.contacts_info .requisite_btn, .overlay, .requisite_info .close_btn').click(function(e) {
+	$('.contacts_info .requisite_btn, .wrap > .overlay, .requisite_info .close_btn').click(function(e) {
 		e.preventDefault()
 
 		$('.requisite_info').toggleClass('show')
 
 		$('.requisite_info').hasClass('show')
-			? $('.overlay').fadeIn(300)
-			: $('.overlay').fadeOut(300)
+			? $('.wrap > .overlay').fadeIn(300)
+			: $('.wrap > .overlay').fadeOut(300)
 	})
 
 

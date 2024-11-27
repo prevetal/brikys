@@ -510,7 +510,8 @@
     /*-------------------
         Products head
     -------------------*/
-    .products_head {
+    .products_head
+    {
         margin-bottom: 24px;
     }
 
@@ -531,7 +532,8 @@
     /*--------------
         Products
     --------------*/
-    .products .grid {
+    .products .grid
+    {
         --count: 2;
     }
 
@@ -539,6 +541,58 @@
     .products .grid > *
     {
         width: calc(50% - 16px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .phone
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .contacts_info .email .val
+    {
+        font-size: 18px;
+    }
+
+
+    .contacts_info .email .icon,
+    .contacts_info .socials a
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .contacts_info .email .icon svg
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .contacts_info .about .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_info .about .text_block
+    {
+        line-height: 23px;
+    }
+
+
+    .contacts_info .about,
+    .contacts_info .tab_content .col_right
+    {
+        width: 100%;
     }
 
 

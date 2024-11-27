@@ -31,6 +31,24 @@
     }
 
 
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 32px;
+        height: 28px;
+
+        border-radius: 10px;
+    }
+
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
 
     /*--------------
         Fancybox
@@ -800,6 +818,85 @@
     {
         width: 100%;
         margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        gap: 20px;
+    }
+
+
+    .contacts_info .phone
+    {
+        margin-bottom: 0;
+    }
+
+
+    .contacts_info .email .label
+    {
+        font-size: 13px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .contacts_info .requisite_btn
+    {
+        font-size: 13px;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .contacts_info .tab_content.active
+    {
+        margin-top: 40px;
+    }
+
+
+    .contacts_info .about .title
+    {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+
+    .contacts_info .address .val,
+    .contacts_info .work_time .val
+    {
+        font-size: 16px;
+    }
+
+
+    .contacts_info .feedback_btn .icon
+    {
+        width: 63px;
+        height: 63px;
+    }
+
+
+    .contacts_info .feedback_btn .icon svg
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .contacts_info .images .image img
+    {
+        width: 150%;
+        margin: 0 -25%;
     }
 
 

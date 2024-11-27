@@ -13,6 +13,17 @@
 
 
 
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        height: 44px;
+        padding: 8px 42px;
+    }
+
+
+
     /*--------------
         Fancybox
     --------------*/
@@ -262,6 +273,104 @@
     #filter .form .submit
     {
         padding: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .about,
+    .contacts_info .city_info,
+    .contacts_info .tab_content .col_right > .work_time,
+    .contacts_info .feedback_btn
+    {
+        padding: 24px 20px;
+    }
+
+
+    .contacts_info .about .text_block,
+    .contacts_info .feedback_btn
+    {
+        line-height: 20px;
+    }
+
+
+    .contacts_info .feedback_btn span
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .contacts_info .tab_content .row,
+    .contacts_info .tab_content .col_right
+    {
+        gap: 16px;
+    }
+
+
+    .contacts_info .city_info
+    {
+        gap: 20px;
+    }
+
+
+    .contacts_info .images
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------------
+        Requisite info
+    --------------------*/
+    .requisite_info
+    {
+        width: 100%;
+    }
+
+
+    .requisite_info .head
+    {
+        height: 82px;
+        padding: 20px;
+    }
+
+
+    .requisite_info .head .title
+    {
+        font-size: 24px;
+    }
+
+
+    .requisite_info .scroll_wrap
+    {
+        height: calc(100% - 82px);
+        padding-right: 10px;
+    }
+
+
+    .requisite_info .scroll
+    {
+        padding-right: 10px;
+        padding-left: 20px;
+    }
+
+
+    .requisite_info .item .label
+    {
+        font-size: 13px;
+
+        width: calc(50% - 8px);
+    }
+
+
+    .requisite_info .item .val
+    {
+        font-size: 13px;
+
+        width: calc(50% - 8px);
     }
 
 
