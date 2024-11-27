@@ -376,6 +376,65 @@
 
 
     /*------------
+        brands
+    ------------*/
+    .brands .brand
+    {
+        min-height: 135px;
+        padding: 13px;
+    }
+
+
+    .brands .brand .name
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .brands .brand .country
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info .head .info .label
+    {
+        font-size: 18px;
+    }
+
+
+    .brand_info .head .col_right > *
+    {
+        width: 100%;
+    }
+
+
+    .brand_info .files .file
+    {
+        padding: 13px;
+    }
+
+
+    .brand_info .files .file .name
+    {
+        line-height: 18px;
+    }
+
+
+    .brand_info .files .file .btn
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*------------
         Footer
     ------------*/
     footer .phone .val

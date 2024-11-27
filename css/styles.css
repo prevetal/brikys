@@ -5898,7 +5898,7 @@ aside .categories .items a.active .arr
 
 .brand_info .head .info
 {
-    width: calc(100% - 380px);
+    width: calc(100% - var(--sidebar_width) - 80px);
 }
 
 
@@ -5923,7 +5923,7 @@ aside .categories .items a.active .arr
 {
     display: flex;
 
-    width: 340px;
+    width: var(--sidebar_width);
     max-width: 100%;
 }
 
@@ -6002,7 +6002,7 @@ aside .categories .items a.active .arr
 
 .brand_info .main_data .data
 {
-    width: calc(100% - 420px);
+    width: calc(100% - var(--sidebar_width) - 80px);
 }
 
 
@@ -6015,7 +6015,7 @@ aside .categories .items a.active .arr
 
 .brand_info .files
 {
-    width: 340px;
+    width: var(--sidebar_width);
     max-width: 100%;
 }
 

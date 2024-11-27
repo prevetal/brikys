@@ -694,6 +694,52 @@
 
 
     /*------------
+        brands
+    ------------*/
+    .brands .row > *
+    {
+        width: calc(25% - 20px);
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info .head .info .label
+    {
+        font-size: 22px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .brand_info .main_data
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .brand_info .head .info,
+    .brand_info .main_data .data
+    {
+        width: 100%;
+    }
+
+    .brand_info .head .col_right
+    {
+        margin-top: 20px;
+    }
+
+
+    .brand_info .files
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*------------
         Footer
     ------------*/
     footer .bottom

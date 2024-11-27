@@ -563,6 +563,26 @@
 
 
 
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info .head .info,
+    .brand_info .main_data .data
+    {
+        width: calc(100% - var(--sidebar_width) - 48px);
+    }
+
+
+
+    .brand_info .files .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 28px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

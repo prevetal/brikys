@@ -902,6 +902,81 @@
 
 
     /*------------
+        brands
+    ------------*/
+    .brands .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+
+    .brands .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .brands .brand
+    {
+        padding: 15px;
+    }
+
+
+    .brands .brand .name
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .brands .brand .country
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info .head .info .label
+    {
+        font-size: 20px;
+    }
+
+
+    .brand_info .files .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .brand_info .files .file
+    {
+        padding: 15px;
+    }
+
+
+    .brand_info .files .file .name
+    {
+        line-height: 19px;
+    }
+
+
+    .brand_info .files .file .btn
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*------------
         Footer
     ------------*/
     footer .top
