@@ -28,6 +28,27 @@
     }
 
 
+    header .catalog .mini_modal
+    {
+        width: 1168px;
+        margin-top: 12px;
+        padding: 24px;
+    }
+
+
+    header .catalog .main
+    {
+        width: 380px;
+    }
+
+
+    header .catalog .sub
+    {
+        width: calc(100% - 380px);
+        padding: 0 0 0 48px;
+    }
+
+
     header .all_site
     {
         width: 220px;
@@ -38,6 +59,48 @@
     {
         height: 56px;
         padding: 0 24px;
+    }
+
+
+    header .all_site .mini_modal
+    {
+        width: 400px;
+        margin-top: 12px;
+        padding: 24px;
+    }
+
+
+    header .all_site .links
+    {
+        font-size: 30px;
+
+        padding-top: 12px;
+    }
+
+
+    header .all_site .phone
+    {
+        margin-top: 12px;
+        padding-top: 28px;
+    }
+
+
+    header .all_site .phone a
+    {
+        font-size: 36px;
+    }
+
+
+    header .all_site .socials a
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    header .all_site .feedback_btn
+    {
+        padding: 24px;
     }
 
 
@@ -157,5 +220,27 @@
     footer .creator
     {
         width: 548px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 48px;
+    }
+
+
+    .modal_desc
+    {
+        margin-top: 24px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 32px;
     }
 }

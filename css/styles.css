@@ -774,6 +774,12 @@ header .catalog .main a
 }
 
 
+header .catalog .main a span
+{
+    max-width: calc(100% - 24px);
+}
+
+
 header .catalog .main a .icon
 {
     display: block;
@@ -801,6 +807,47 @@ header .catalog .sub
 
     width: calc(100% - 420px);
     padding: 0 100px 0 80px;
+}
+
+
+header .catalog .sub .back_btn
+{
+    font-size: 16px;
+    font-weight: 600;
+
+    display: none;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 4px 0;
+
+    text-align: left;
+
+    color: rgba(36, 38, 44, .60);
+
+    gap: 10px;
+}
+
+
+header .catalog .sub .back_btn .icon
+{
+    display: block;
+
+    width: 10px;
+    height: 6px;
+    margin-top: 1px;
+
+    transform: rotate(90deg);
+}
+
+
+header .catalog .sub .back_btn span
+{
+    width: calc(100% - 20px);
 }
 
 
@@ -850,6 +897,15 @@ header .catalog .item .name a
     text-decoration: none;
 
     color: currentColor;
+}
+
+
+header .catalog .item .name a .icon
+{
+    display: none;
+
+    width: 16px;
+    height: 16px;
 }
 
 
@@ -1420,104 +1476,6 @@ header.partly_dark .location .exp,
 header.partly_dark .contacts .callback_btn
 {
     color: rgba(0, 0, 0, .50);
-}
-
-
-
-/*-----------------
-    Mob. header
------------------*/
-.mob_header
-{
-    position: relative;
-    z-index: 9;
-    top: 0;
-    left: 0;
-
-    display: none;
-
-    width: 100%;
-    padding: 16px 0;
-}
-
-
-.mob_header .cont
-{
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-
-.mob_header .logo
-{
-    display: block;
-
-    margin-right: auto;
-
-    text-decoration: none;
-
-    color: currentColor;
-}
-
-.mob_header .logo img
-{
-    display: block;
-}
-
-
-
-.mob_header .mob_menu_btn
-{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    width: 44px;
-    height: 34px;
-    margin-right: -8px;
-    margin-left: 24px;
-    padding: 8px;
-
-    color: currentColor;
-}
-
-
-.mob_header .mob_menu_btn span
-{
-    position: relative;
-
-    display: block;
-
-    width: 100%;
-    height: 2px;
-
-    background: currentColor;
-}
-
-.mob_header .mob_menu_btn span:before,
-.mob_header .mob_menu_btn span:after
-{
-    position: absolute;
-    top: -8px;
-    left: 0;
-
-    display: block;
-
-    width: 100%;
-    height: 100%;
-
-    content: '';
-
-    background: currentColor;
-}
-
-.mob_header .mob_menu_btn span:after
-{
-    top: 8px;
 }
 
 

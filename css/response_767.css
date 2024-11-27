@@ -4,12 +4,34 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --font_size: 13px;
+        --font_size_title_big: 48px;
+        --font_size_title: 42px;
+        --font_size_title_small: 32px;
+    }
+
+
+    .cont,
+    .cont.big
+    {
+        padding: 0 20px;
+    }
 
 
 
     /*--------------
         Fancybox
     --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 12px;
+        right: 12px;
+    }
+
+
     .fancybox__slide
     {
         padding: 20px;
@@ -17,55 +39,312 @@
 
 
 
-    /*-----------------
-        Mob. header
-    -----------------*/
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 30px 0 14px;
+    }
 
 
+    header .logo img
+    {
+        height: 44px;
+    }
 
-    /*-------------
-        Sidebar
-    -------------*/
+
+    header .catalog
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    header .catalog .btn
+    {
+        height: 45px;
+    }
+
+
+    header .catalog .mini_modal
+    {
+        left: 0;
+
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    header .catalog .main a
+    {
+        font-size: 16px;
+
+        padding: 12px 16px;
+    }
+
+
+    header .catalog .columns
+    {
+        display: flex;
+        flex-direction: column;
+
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+    header .all_site
+    {
+        width: calc(100% - 195px);
+        margin-left: auto;
+    }
+
+    header .all_site .btn
+    {
+        height: 45px;
+    }
 
 
 
     /*---------------
         Page head
     ---------------*/
+    .page_head
+    {
+        margin-bottom: 32px;
+        padding-top: 14px;
+    }
+
+    .page_head.small_m
+    {
+        margin-bottom: 32px;
+    }
 
 
+    .breadcrumbs a ~ *,
+    .breadcrumbs .sep
+    {
+        display: none;
+    }
 
-    /*----------------
-        Block head
-    ----------------*/
-
-
-
-    /*------------------
-        Form elements
-    ------------------*/
+    .breadcrumbs a:first-child + .sep,
+    .breadcrumbs .current
+    {
+        display: block;
+    }
 
 
 
     /*----------------
         Typography
     ----------------*/
+    .text_block
+    {
+        line-height: 155%;
+    }
+
+
+    .text_block .big
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block h3
+    {
+        font-size: 18px;
+
+        margin-top: 24px;
+    }
+
+
+    .text_block img
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin-top: 24px;
+        margin-right: -20px;
+        margin-bottom: 24px;
+        margin-left: -20px;
+    }
+
+
+    .text_block .table_wrap
+    {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+
+    .text_block table td
+    {
+        padding: 11px 14px;
+    }
 
 
 
-    /*-----------------
-        Main slider
-    -----------------*/
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head,
+    .block_head.small_m
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*--------------
+        Get free
+    --------------*/
+    .get_free .item
+    {
+        padding: 24px 20px 20px 20px;
+    }
+
+
+    .get_free .item .desc
+    {
+        line-height: 155%;
+
+        width: 260px;
+        padding-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Work together
+    -------------------*/
+    .work_together .data
+    {
+        padding: 40px 8px 8px;
+    }
+
+
+    .work_together .info
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .work_together .info .title
+    {
+        font-size: 44px;
+    }
+
+
+    .work_together .items
+    {
+        flex-wrap: wrap;
+
+        gap: 10px;
+    }
+
+
+    .work_together .item
+    {
+        height: 263px;
+        padding: 22px;
+    }
+
+
+    .work_together .item .title
+    {
+        font-size: 22px;
+
+        width: 240px;
+        max-width: 100%;
+    }
+
+
+    .work_together .item .desc
+    {
+        font-size: 13px;
+        line-height: 140%;
+
+        width: 240px;
+        max-width: 100%;
+    }
+
+
+    .work_together .item .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer .top
+    {
+        padding: 60px 0 24px;
+    }
+
+
+    footer .bottom
+    {
+        padding: 8px 0 44px;
+    }
+
+
+    footer .all_country
+    {
+        margin-top: 20px;
+        padding: 12px 20px;
+    }
+
+
+    footer .phone
+    {
+        margin-top: 32px;
+    }
+
+
+    footer .phone .val
+    {
+        font-size: 40px;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        margin-top: 13px;
+    }
 
 
 
-    /*-----------
-        PopUp
-    -----------*/
+    /*----------------
+        Mini modal
+    ----------------*/
+    .modal
+    {
+        padding: 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+    }
+
+
+    .modal_desc
+    {
+        line-height: 155%;
+
+        margin-top: 20px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 24px;
+    }
 }

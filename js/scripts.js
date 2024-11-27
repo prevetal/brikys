@@ -565,7 +565,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			$(this).removeClass('active')
 			$('.mini_modal').removeClass('active')
 
-			if($(this).closest('header').length) {
+			if($(this).closest('.catalog').length || $(this).closest('.all_site').length) {
 				$('header .overlay').fadeOut(200)
 			}
 
@@ -577,7 +577,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			$('.mini_modal').removeClass('active')
 			$(modalId).addClass('active')
 
-			if($(this).closest('header').length) {
+			if($(this).closest('.catalog').length || $(this).closest('.all_site').length) {
 				$('header .overlay').fadeIn(200)
 			}
 
@@ -725,6 +725,36 @@ document.addEventListener('DOMContentLoaded', function () {
 		$('header .catalog .sub').hide()
 		$('header .catalog .' + sub).fadeIn(300)
 	})
+
+
+	if (is_touch_device()) {
+		$('header .catalog .main a').click(function(e) {
+			e.preventDefault()
+
+			let sub = $(this).data('sub')
+
+			$('header .catalog .main a').removeClass('active')
+			$(this).addClass('active')
+
+			$('header .catalog .sub').removeClass('show')
+			$('header .catalog .' + sub).addClass('show')
+		})
+
+
+		$('header .catalog .sub .back_btn').click(function(e) {
+			e.preventDefault()
+
+			$('header .catalog .sub').removeClass('show')
+		})
+
+
+		$('header .catalog .item .name a.sub_link').click(function(e) {
+			e.preventDefault()
+
+			$(this).toggleClass('active')
+			$(this).closest('.name').next().slideToggle(300)
+		})
+	}
 })
 
 

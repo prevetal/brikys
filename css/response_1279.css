@@ -4,10 +4,53 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --sidebar_width_small: 100%;
+        --sidebar_width_middle2: 100%;
+        --sidebar_width_middle: 100%;
+        --sidebar_width: 100%;
+        --font_size: 15px;
+        --font_size_title_big: 50px;
+        --font_size_title: 42px;
+        --font_size_title_small: 36px;
+    }
+
+
     html.custom_scroll ::-webkit-scrollbar
     {
         width: 5px;
         height: 5px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 120px;
+    }
+
+    .block.medium_m
+    {
+        margin-bottom: 100px;
+    }
+
+    .block.small_m,
+    .block.small_m2,
+    .block.small_m3
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    .content_flex .content,
+    .content_flex .content.small,
+    .content_flex .content.big,
+    .content_flex .content.middle,
+    .content_flex .content.middle2
+    {
+        width: 100%;
     }
 
 
@@ -25,52 +68,296 @@
     /*------------
         Header
     ------------*/
+    header .location,
+    header .links
+    {
+        display: none;
+    }
+
+
+    header .catalog
+    {
+        width: 220px;
+    }
+
+
+    header .catalog .mini_modal
+    {
+        left: -214px;
+
+        width: calc(100vw - 48px);
+    }
+
+
+    header .catalog .main
+    {
+        width: 340px;
+    }
+
+
+    header .catalog .sub
+    {
+        width: calc(100% - 340px);
+        padding: 0 0 0 40px;
+    }
+
+
+    header .catalog .columns
+    {
+        column-gap: 40px;
+    }
+
+
+    header .all_site .links
+    {
+        display: flex;
+    }
+
+
+    header .contacts
+    {
+        margin-right: auto;
+    }
+
+
+    header .search .btn .icon,
+    header .favorite_link .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
 
 
 
     /*-------------
         Sidebar
     -------------*/
-
-
-
-    /*---------------
-        Page head
-    ---------------*/
+    aside.mob_hide
+    {
+        display: none;
+    }
 
 
 
     /*----------------
         Block head
     ----------------*/
-
-
-
-    /*------------------
-        Form elements
-    ------------------*/
+    .block_head,
+    .block_head.small_m
+    {
+        margin-bottom: 48px;
+    }
 
 
 
     /*----------------
         Typography
     ----------------*/
+    .text_block
+    {
+        line-height: calc(100% + 8px);
+    }
+
+
+    .text_block .big
+    {
+        font-size: 18px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 32px;
+    }
+
+
+    .text_block > *,
+    .text_block ul.big_gap li > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 30px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h3
+    {
+        margin-top: 32px;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+
+    .text_block ul,
+    .text_block ol
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+
+    .text_block ol
+    {
+        gap: 16px;
+    }
+
+
+    .text_block .table_wrap
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
 
 
 
-    /*-----------------
-        Main slider
-    -----------------*/
+    /*--------------
+        Get free
+    --------------*/
+    .get_free .item
+    {
+        height: 300px;
+        padding: 24px;
+    }
+
+
+    .get_free .item .title
+    {
+        font-size: 26px;
+
+        width: 280px;
+    }
+
+
+    .get_free .item .desc
+    {
+        line-height: 23px;
+
+        width: 280px;
+        padding-top: 32px;
+    }
+
+
+
+    /*-------------------
+        Work together
+    -------------------*/
+    .work_together .data
+    {
+        padding: 60px 24px;
+    }
+
+
+    .work_together .info
+    {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+
+    .work_together .info .title
+    {
+        font-size: 56px;
+    }
+
+
+    .work_together .info .desc
+    {
+        font-size: 16px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 24px;
+    }
+
+
+    .work_together .items
+    {
+        width: 100%;
+    }
+
+
+    .work_together .item
+    {
+        height: 340px;
+    }
+
+
+    .work_together .item .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer .bottom
+    {
+        padding: 24px 0;
+    }
 
 
+    footer .all_country
+    {
+        margin-left: 80px;
+        padding: 8px 20px;
+    }
 
-    /*-----------
-        PopUp
-    -----------*/
+
+    footer .phone
+    {
+        margin-left: auto;
+    }
+
+
+    footer .phone .val
+    {
+        font-size: 44px;
+    }
+
+
+    footer .links + .links
+    {
+        display: none;
+    }
+
+
+    footer .contacts
+    {
+        gap: 24px;
+    }
+
+
+    footer .socials a
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    footer .copyright
+    {
+        width: auto;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        margin-left: auto;
+    }
+
+
+    footer .creator
+    {
+        width: auto;
+    }
 }

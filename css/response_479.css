@@ -3,6 +3,13 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --font_size: 12px;
+        --font_size_title_big: 48px;
+        --font_size_title: 42px;
+        --font_size_title_small: 24px;
+    }
 
 
 
@@ -16,55 +23,53 @@
 
 
 
-    /*-----------------
-        Mob. header
-    -----------------*/
-
-
-
-    /*-------------
-        Sidebar
-    -------------*/
-
-
-
-    /*---------------
-        Page head
-    ---------------*/
+    /*------------
+        Header
+    ------------*/
+    header .all_site .btn,
+    header .catalog .btn
+    {
+        padding: 0 12px;
+    }
 
 
 
     /*----------------
         Block head
     ----------------*/
+    .block_head,
+    .block_head.small_m
+    {
+        margin-bottom: 32px;
+    }
 
 
 
-    /*------------------
-        Form elements
-    ------------------*/
-
-
-
-    /*----------------
-        Typography
-    ----------------*/
-
-
-
-    /*-----------------
-        Main slider
-    -----------------*/
+    /*-------------------
+        Work together
+    -------------------*/
+    .work_together .info .title
+    {
+        font-size: 38px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer .phone .val
+    {
+        font-size: 32px;
+    }
 
 
 
-    /*-----------
-        PopUp
-    -----------*/
+    /*----------------
+        Mini modal
+    ----------------*/
+    .modal
+    {
+        padding: 40px 20px;
+    }
 }

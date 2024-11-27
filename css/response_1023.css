@@ -4,6 +4,13 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title_big: 48px;
+        --font_size_title: 42px;
+        --font_size_title_small: 32px;
+    }
 
 
 
@@ -20,64 +27,201 @@
     /*------------
         Header
     ------------*/
-    header
+    header .catalog
     {
-        position: fixed;
-        z-index: 101;
-        top: 0;
-        left: 0;
-
-        width: 310px;
-        height: 100%;
-        min-height: -moz-available;
-        min-height: -webkit-fill-available;
-        min-height:         fill-available;
-        margin: 0;
-        padding: 0;
-
-        transition: transform .3s linear;
-        transform: translateX(-100%);
-
-        background: #fff;
-    }
-
-    header.show
-    {
-        transform: translateX(0);
+        width: calc(100% - 454px);
     }
 
 
-    header .scroll
+    header .catalog .btn
     {
-        display: flex;
-        overflow: auto;
-        align-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-
-        height: 100%;
-        min-height: -moz-available;
-        min-height: -webkit-fill-available;
-        min-height:         fill-available;
-        padding: 20px 0;
-
-        overscroll-behavior-y: contain;
+        height: 48px;
     }
 
-    header .scroll > *
+
+    header .catalog .mini_modal
+    {
+        overflow: hidden;
+    }
+
+
+    header .catalog .main
     {
         width: 100%;
     }
 
 
+    header .catalog .main a:hover,
+    header .catalog .main a.active
+    {
+        background: none;
+    }
 
-    /*-----------------
-        Mob. header
-    -----------------*/
-    .mob_header
+
+    header .catalog .sub
+    {
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        left: 100%;
+
+        display: flex !important;
+        flex-direction: column;
+
+        width: 100%;
+        height: 100%;
+        padding: 24px 12px 24px 24px;
+
+        transition: transform .35s linear;
+
+        opacity: 1 !important;
+        border-radius: 10px;
+        background: #fff;
+    }
+
+
+    header .catalog .sub.show
+    {
+        transform: translateX(-100%);
+    }
+
+
+    header .catalog .sub .back_btn
+    {
+        display: flex;
+    }
+
+
+    header .catalog .columns
+    {
+        overflow: auto;
+
+        height: calc(100% - 48px);
+        padding-right: 12px;
+
+        overscroll-behavior-y: contain;
+    }
+
+
+    header .catalog .columns::-webkit-scrollbar
+    {
+        width: 4px;
+        height: 4px;
+
+        border-radius: 4px;
+        background-color: transparent;
+    }
+
+
+    header .catalog .columns::-webkit-scrollbar-thumb
+    {
+        border-radius: 4px;
+        background-color: #c22c47;
+    }
+
+
+    header .catalog .columns > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    header .catalog .item
+    {
+        padding-bottom: 12px;
+
+        border: none;
+    }
+
+
+    header .catalog .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    header .catalog .item .name a.sub_link
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    header .catalog .item .name a .icon
     {
         display: block;
+    }
+
+    header .catalog .item .name a .icon + .icon
+    {
+        display: none;
+
+        color: rgba(36, 38, 44, .4);
+    }
+
+    header .catalog .item .name a.active .icon
+    {
+        display: none;
+    }
+
+    header .catalog .item .name a.active .icon + .icon
+    {
+        display: block;
+    }
+
+
+    header .catalog .item .items
+    {
+        font-size: 12px;
+        line-height: 135%;
+
+        display: none;
+
+        padding-top: 18px;
+        padding-left: 0;
+    }
+
+
+    header .catalog .item .items > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    header .catalog .item .items a
+    {
+        text-decoration: underline;
+
+        text-decoration-thickness: 1px;
+    }
+
+
+    header .all_site
+    {
+        width: 220px;
+    }
+
+    header .all_site .btn
+    {
+        height: 48px;
+    }
+
+
+    header .all_site .mini_modal
+    {
+        right: 0;
+        left: auto;
+    }
+
+
+    header .contacts,
+    header .search,
+    header .favorite_link
+    {
+        display: none;
     }
 
 
@@ -109,22 +253,253 @@
     /*----------------
         Typography
     ----------------*/
+    .text_block .big
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block ul li .big
+    {
+        font-size: 18px;
+    }
+
+
+    .text_block ul li
+    {
+        min-height: 26px;
+        padding-left: 32px;
+
+        background-size: 20px 20px;
+    }
+
+
+    .text_block ol li
+    {
+        min-height: 26px;
+        padding-left: 32px;
+    }
+
+    .text_block ol li:before
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        top: 2px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .text_block table td
+    {
+        padding: 11px 19px;
+    }
 
 
 
-    /*-----------------
-        Main slider
-    -----------------*/
+    /*--------------
+        Get free
+    --------------*/
+    .get_free .cont
+    {
+        padding: 0 8px;
+    }
+
+
+    .get_free .row
+    {
+        margin-bottom: -8px;
+        margin-left: 0;
+    }
+
+
+    .get_free .row > *
+    {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 0;
+
+        gap: 8px;
+    }
+
+
+    .get_free .item
+    {
+        height: 310px;
+    }
+
+
+    .get_free .callback_btn
+    {
+        height: 60px;
+    }
+
+
+
+    /*-------------------
+        Work together
+    -------------------*/
+    .work_together .cont
+    {
+        padding: 0 8px;
+    }
+
+
+    .work_together .data
+    {
+        padding: 40px 16px;
+    }
+
+
+    .work_together .info .title
+    {
+        font-size: 50px;
+    }
+
+
+    .work_together .info .desc
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+
+    .work_together .item .title
+    {
+        font-size: 20px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer .top
+    {
+        padding: 68px 0 32px;
+    }
+
+
+    footer .data
+    {
+        padding: 0 0 24px;
+    }
 
 
 
-    /*-----------
-        PopUp
-    -----------*/
+    footer .logo
+    {
+        width: 100%;
+    }
+
+
+    footer .logo img
+    {
+        height: 60px;
+        margin: 0 auto;
+    }
+
+
+    footer .all_country
+    {
+        margin-top: 24px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .phone
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        text-align: center;
+    }
+
+
+    footer .line
+    {
+        display: none;
+    }
+
+
+    footer .info
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 32px;
+
+        text-align: center;
+    }
+
+
+    footer .info .logos
+    {
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    footer .menu,
+    footer .links,
+    footer .work_time
+    {
+        display: none;
+    }
+
+
+    footer .contacts
+    {
+        order: 1;
+
+        width: 100%;
+    }
+
+
+    footer .socials
+    {
+        justify-content: center;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+
+    footer .creator
+    {
+        margin: 32px auto 0;
+    }
 }
