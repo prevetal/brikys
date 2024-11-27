@@ -414,6 +414,26 @@
 
 
 
+    /*-------------------------
+        Photogallery brands
+    -------------------------*/
+    .photogallery_brands .brand .logo
+    {
+        height: 200px;
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .photogallery .item .thumb
+    {
+        height: 220px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

@@ -119,6 +119,116 @@
 
 
 
+    /*------------------
+        Compare info
+    ------------------*/
+    .compare_info .clear_btn
+    {
+        font-size: 12px;
+
+        width: 180px;
+        height: 48px;
+    }
+
+
+    .compare_info.content_flex .content
+    {
+        width: calc(100% + 24px);
+        max-width: calc(100% + 24px);
+        margin-right: -12px;
+        margin-left: -12px;
+    }
+
+
+    .compare_info .product .features
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    .compare_info .product .features > *
+    {
+        font-size: 12px;
+
+        padding: 12px 16px;
+    }
+
+
+
+    /*-------------------------
+        Photogallery brands
+    -------------------------*/
+    .photogallery_brands .row
+    {
+        margin-bottom: -24px;
+        margin-left: -8px;
+    }
+
+
+    .photogallery_brands .row > *
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 24px;
+        margin-left: 8px;
+    }
+
+
+    .photogallery_brands .brand .logo
+    {
+        height: 164px;
+        padding: 11px;
+    }
+
+
+    .photogallery_brands .brand .name
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*------------------
+            Photogallery
+        ------------------*/
+    .photogallery .grid
+    {
+        margin-bottom: -24px;
+        margin-left: -8px;
+    }
+
+
+    .content .photogallery .grid > *,
+    .photogallery .content .grid > *
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 24px;
+        margin-left: 8px;
+    }
+
+
+    .photogallery .item .thumb
+    {
+        height: 164px;
+    }
+
+
+    .photogallery .item .brand
+    {
+        font-size: 12px;
+    }
+
+
+    .photogallery .item .name
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
+
     /*------------
         Footer
     ------------*/

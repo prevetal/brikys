@@ -526,6 +526,87 @@
 
 
 
+    /*------------------
+        Compare info
+    ------------------*/
+    .compare_info aside
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .compare_info .feature_labels
+    {
+        display: none;
+    }
+
+
+    .compare_info.content_flex .content
+    {
+        width: 100%;
+    }
+
+
+    .compare_info .clear_btn
+    {
+        font-size: 13px;
+    }
+
+
+    .compare_info .product .features > *
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*-------------------------
+        Photogallery brands
+    -------------------------*/
+    .photogallery_brands .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .photogallery_brands .brand .name
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .content .photogallery .grid > *,
+    .photogallery .content .grid > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .photogallery .item .thumb
+    {
+        height: 200px;
+    }
+
+
+    .photogallery .item .brand
+    {
+        font-size: 13px;
+    }
+
+
+    .photogallery .item .name
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

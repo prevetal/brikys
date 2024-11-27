@@ -444,6 +444,27 @@
 
 
 
+    /*-------------------------
+        Photogallery brands
+    -------------------------*/
+    .photogallery_brands .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .content .photogallery .grid > *,
+    .photogallery .content .grid > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
     /*------------
         Footer
     ------------*/

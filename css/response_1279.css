@@ -383,6 +383,16 @@
 
 
 
+    /*------------------
+        Compare info
+    ------------------*/
+    .compare_info aside
+    {
+        margin-bottom: 0;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
