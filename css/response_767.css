@@ -221,7 +221,7 @@
     -------------------*/
     .work_together .data
     {
-        padding: 40px 8px 8px;
+        padding: 40px 8px 16px;
     }
 
 
@@ -275,6 +275,118 @@
     {
         width: 72px;
         height: 72px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -10px;
+        margin-left: 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+
+    .articles .article
+    {
+        min-height: 335px;
+        padding: 20px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 18px;
+    }
+
+
+    .articles .article .desc
+    {
+        margin-top: 14px;
+
+        -webkit-line-clamp: 4;
+    }
+
+
+    .articles .article .date
+    {
+        font-size: 12px;
+    }
+
+
+    .articles .article .btn
+    {
+        width: 59px;
+        height: 34px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head
+    {
+        min-height: 391px;
+        padding: 40px 20px 30px;
+    }
+
+
+    .article_info .head .date
+    {
+        font-size: 12px;
+    }
+
+
+    .article_info .head .title
+    {
+        font-size: var(--font_size_title_small);
+    }
+
+
+    .article_info .data
+    {
+        padding: 24px 10px;
+    }
+
+
+
+    /*-----------
+        Share
+    -----------*/
+    .share
+    {
+        padding: 10px 20px;
+    }
+
+
+    .share .label
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .share .items
+    {
+        gap: 16px;
+    }
+
+
+    .share .items .icon
+    {
+        width: 20px;
+        height: 20px;
     }
 
 

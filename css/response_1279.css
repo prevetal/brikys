@@ -132,6 +132,12 @@
     /*-------------
         Sidebar
     -------------*/
+    aside
+    {
+        margin-bottom: 40px;
+    }
+
+
     aside.mob_hide
     {
         display: none;
@@ -293,6 +299,23 @@
     {
         width: 60px;
         height: 60px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head
+    {
+        min-height: 480px;
+        padding: 60px 60px 40px;
+    }
+
+
+    .article_info .data
+    {
+        padding: 40px 60px 60px;
     }
 
 

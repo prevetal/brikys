@@ -345,6 +345,30 @@
 
 
 
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article
+    {
+        min-height: 440px;
+        padding: 24px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 22px;
+    }
+
+
+    .articles .article .date,
+    .articles .article .btn
+    {
+        margin-top: 24px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

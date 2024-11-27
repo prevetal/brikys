@@ -226,30 +226,6 @@
 
 
 
-    /*-------------
-        Sidebar
-    -------------*/
-
-
-
-    /*---------------
-        Page head
-    ---------------*/
-
-
-
-    /*----------------
-        Block head
-    ----------------*/
-
-
-
-    /*------------------
-        Form elements
-    ------------------*/
-
-
-
     /*----------------
         Typography
     ----------------*/
@@ -315,16 +291,13 @@
     /*--------------
         Get free
     --------------*/
-    .get_free .cont
-    {
-        padding: 0 8px;
-    }
-
-
     .get_free .row
     {
+        width: calc(100% + 24px);
+        margin-right: -12px;
         margin-bottom: -8px;
         margin-left: 0;
+        margin-left: -12px;
     }
 
 
@@ -356,7 +329,7 @@
     -------------------*/
     .work_together .cont
     {
-        padding: 0 8px;
+        padding: 0 8px !important;
     }
 
 
@@ -383,6 +356,58 @@
     .work_together .item .title
     {
         font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article
+    {
+        min-height: 400px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 20px;
+    }
+
+
+    .articles .article .date,
+    .articles .article .btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head
+    {
+        min-height: 440px;
+        padding: 40px 28px 24px;
+    }
+
+
+    .article_info .head .date
+    {
+        font-size: 13px;
+    }
+
+
+    .article_info .head .title
+    {
+        font-size: var(--font_size_title_small);
+    }
+
+
+    .article_info .data
+    {
+        padding: 40px 24px;
     }
 
 

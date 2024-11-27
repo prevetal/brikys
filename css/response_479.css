@@ -55,6 +55,43 @@
 
 
 
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article
+    {
+        padding: 18px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head
+    {
+        padding: 40px 10px 30px;
+    }
+
+
+
+    /*-----------
+        Share
+    -----------*/
+    .share
+    {
+        padding: 10px 14px;
+    }
+
+
+    .share .label
+    {
+        width: 146px;
+        max-width: 100%;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
