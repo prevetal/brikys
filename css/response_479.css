@@ -23,6 +23,17 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination a,
+    .pagination .sep
+    {
+        font-size: 12px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -88,6 +99,22 @@
     {
         width: 146px;
         max-width: 100%;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news .item .date
+    {
+        font-size: 12px;
+    }
+
+
+    .news .list .item .name
+    {
+        font-size: 13px;
     }
 
 

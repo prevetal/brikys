@@ -412,6 +412,38 @@
 
 
 
+    /*----------
+        News
+    ----------*/
+    .news .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .news .list .item .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------------
+        News item info
+    --------------------*/
+    .news_item_info
+    {
+        padding: 24px;
+    }
+
+
+    .news_item_info .title
+    {
+        margin-bottom: 32px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

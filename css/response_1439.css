@@ -7,8 +7,8 @@
     :root
     {
         --sidebar_width_small: 220px;
-        --sidebar_width_middle2: 240px;
-        --sidebar_width_middle: 240px;
+        --sidebar_width_middle2: 280px;
+        --sidebar_width_middle: 280px;
         --sidebar_width: 300px;
         --font_size_title_big: 56px;
         --font_size_title: 48px;
@@ -69,6 +69,16 @@
     .content_flex .content.middle2
     {
         width: calc(100% - var(--sidebar_width_middle2) - 48px);
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 52px;
     }
 
 
@@ -365,6 +375,41 @@
     .articles .article .btn
     {
         margin-top: 24px;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news .row
+    {
+        margin-bottom: -32px;
+        margin-left: -24px;
+    }
+
+
+    .news .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 32px;
+        margin-left: 24px;
+    }
+
+
+    .news .item .info
+    {
+        padding: 20px 16px 16px;
+    }
+
+
+
+    /*--------------------
+        News item info
+    --------------------*/
+    .news_item_info
+    {
+        padding: 40px;
     }
 
 
