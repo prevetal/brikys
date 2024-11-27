@@ -567,6 +567,54 @@
 
 
     /*------------
+        Filter
+    ------------*/
+    #filter
+    {
+        width: 375px;
+    }
+
+
+    #filter .head
+    {
+        height: 100px;
+        padding: 20px 40px;
+    }
+
+
+    #filter .head .title
+    {
+        font-size: 28px;
+    }
+
+
+    #filter .scroll_wrap
+    {
+        height: calc(100% - 100px);
+        padding: 20px;
+    }
+
+
+    #filter .scroll
+    {
+        padding: 0 20px 132px;
+    }
+
+
+    #filter .form .submit
+    {
+        padding: 20px 40px;
+    }
+
+
+    #filter .form .reset_filter_btn
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
         Footer
     ------------*/
     footer .bottom

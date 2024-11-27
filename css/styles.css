@@ -360,7 +360,7 @@ button
 .overlay
 {
     position: fixed;
-    z-index: 50;
+    z-index: 90;
     top: 0;
     left: 0;
 
@@ -631,6 +631,12 @@ header
     color: #000;
     border-bottom: 1px solid #e8e9eb;
     background: var(--bg);
+}
+
+
+header .overlay
+{
+    z-index: 50;
 }
 
 
@@ -7750,7 +7756,7 @@ aside .categories .items a.active .arr
 #filter
 {
     position: fixed;
-    z-index: 51;
+    z-index: 91;
     top: 0;
     right: 100%;
 
