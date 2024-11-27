@@ -129,6 +129,229 @@
 
 
 
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section:after
+    {
+        width: 664px;
+    }
+
+
+    .first_section .img
+    {
+        right: auto;
+        left: 0;
+
+        width: calc(100% - 640px);
+    }
+
+
+    .first_section .head
+    {
+        width: calc(100% - 640px);
+        padding-right: 180px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .head .title
+    {
+        font-size: 100px;
+        line-height: 100%;
+    }
+
+
+    .first_section .bottom
+    {
+        width: calc(100% - 640px);
+        padding: 180px 48px 48px 0;
+    }
+
+
+    .first_section .data
+    {
+        padding-top: 121px;
+    }
+
+
+    .first_section .data .sticky
+    {
+        width: 664px;
+    }
+
+
+    .first_section .data .search .tips
+    {
+        margin-top: 28px;
+
+        gap: 8px;
+    }
+
+
+    .first_section .data .image
+    {
+        width: 560px;
+        height: 440px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        width: 428px;
+    }
+
+
+
+    /*------------------
+        Catalog grid
+    ------------------*/
+    .catalog_grid .category
+    {
+        height: 560px;
+        padding: 32px;
+    }
+
+
+    .catalog_grid .category .name
+    {
+        font-size: 30px;
+    }
+
+
+    .catalog_grid .category .thumb
+    {
+        height: 280px;
+    }
+
+
+    .catalog_grid .category .count
+    {
+        bottom: 42px;
+        left: 32px;
+    }
+
+
+    .catalog_grid .category .btn
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head
+    {
+        width: 420px;
+        padding-top: 48px;
+    }
+
+
+    .about_info .block_head .pre_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .about_info .block_head .title
+    {
+        font-size: 68px;
+    }
+
+
+    .about_info .block_head .desc
+    {
+        font-size: 20px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 48px;
+    }
+
+
+    .about_info .col_right
+    {
+        width: 360px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(100% - 860px);
+    }
+
+
+    .about_info .boss
+    {
+        height: 720px;
+    }
+
+
+    .about_info .boss .info
+    {
+        padding: 40px;
+    }
+
+
+    .about_info .boss .signature
+    {
+        top: 152px;
+        left: 40px;
+    }
+
+
+    .about_info .link a
+    {
+        height: 68px;
+    }
+
+
+    .about_info .feedback_btn
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        width: 240px;
+        height: 240px;
+        padding: 24px;
+    }
+
+
+
+    /*--------------------
+        Channels block
+    --------------------*/
+    .channels_block .col_left
+    {
+        width: 420px;
+        padding-top: 28px;
+    }
+
+
+    .channels_block .video_link
+    {
+        width: calc(100% - 860px);
+        height: 720px;
+    }
+
+
+    .channels_block .col_right
+    {
+        width: 360px;
+    }
+
+
+    .channels_block .col_right .block_head .title.big
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+
     /*--------------
         Get free
     --------------*/

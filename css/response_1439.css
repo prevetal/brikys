@@ -10,7 +10,7 @@
         --sidebar_width_middle2: 280px;
         --sidebar_width_middle: 280px;
         --sidebar_width: 300px;
-        --font_size_title_big: 56px;
+        --font_size_title_big: 48px;
         --font_size_title: 48px;
         --font_size_title_small: 40px;
     }
@@ -292,6 +292,308 @@
 
 
 
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section:after
+    {
+        width: 628px;
+    }
+
+
+    .first_section .img
+    {
+        width: calc(100% - 604px);
+    }
+
+
+    .first_section .head
+    {
+        width: calc(100% - 604px);
+        padding-right: 120px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .head .title
+    {
+        font-size: 80px;
+    }
+
+
+    .first_section .bottom
+    {
+        width: calc(100% - 604px);
+        padding: 120px 40px 40px 0;
+    }
+
+
+    .first_section .bottom .title
+    {
+        font-size: 28px;
+    }
+
+
+    .first_section .swiper-button-next,
+    .first_section .swiper-button-prev
+    {
+        top: 96px;
+
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .first_section .data .sticky
+    {
+        width: 628px;
+    }
+
+
+    .first_section .data .image
+    {
+        width: 480px;
+        height: 380px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        width: 384px;
+    }
+
+
+
+    /*------------------
+        Catalog grid
+    ------------------*/
+    .catalog_grid .category
+    {
+        height: 480px;
+        padding: 24px;
+    }
+
+
+    .catalog_grid .category .name
+    {
+        font-size: 26px;
+    }
+
+
+    .catalog_grid .category .thumb
+    {
+        height: 240px;
+    }
+
+
+    .catalog_grid .category .count
+    {
+        font-size: 14px;
+
+        bottom: 36px;
+        left: 24px;
+
+        width: calc(100% - 128px);
+    }
+
+
+    .catalog_grid .category .btn
+    {
+        margin-top: 40px;
+    }
+
+
+    .catalog_grid .sale_link
+    {
+        height: 260px;
+        padding: 40px;
+    }
+
+
+    .catalog_grid .sale_link .title
+    {
+        font-size: 30px;
+
+        width: 300px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head
+    {
+        width: 380px;
+        padding-top: 40px;
+    }
+
+
+    .about_info .block_head .title
+    {
+        font-size: 60px;
+    }
+
+
+    .about_info .col_right
+    {
+        width: 320px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(100% - 780px);
+    }
+
+
+    .about_info .block_head .desc
+    {
+        font-size: 18px;
+
+        margin-top: 40px;
+    }
+
+
+    .about_info .boss
+    {
+        height: 660px;
+    }
+
+
+    .about_info .boss .photo
+    {
+        object-position: 100% 0;
+    }
+
+
+    .about_info .boss .info
+    {
+        padding: 32px;
+    }
+
+
+    .about_info .boss .signature
+    {
+        top: 140px;
+        left: 32px;
+    }
+
+
+    .about_info .link a
+    {
+        height: 60px;
+    }
+
+
+    .about_info .feedback_btn
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        width: 220px;
+        height: 220px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project
+    {
+        min-height: 320px;
+        padding: 32px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 30px;
+
+        width: 260px;
+    }
+
+
+    .projects .project .desc
+    {
+        line-height: 23px;
+
+        width: 260px;
+    }
+
+
+    .projects .project .btn
+    {
+        right: 32px;
+        bottom: 32px;
+    }
+
+
+
+    /*---------------------
+        Official dealer
+    ---------------------*/
+    .official_dealer .data
+    {
+        padding: 68px 0;
+    }
+
+
+    .official_dealer .col_left
+    {
+        width: calc(100% - 468px);
+    }
+
+
+    .official_dealer .col_right
+    {
+        width: 420px;
+        padding: 40px;
+    }
+
+
+    .official_dealer .logo
+    {
+        height: 200px;
+        margin-bottom: 40px;
+    }
+
+
+    .official_dealer .link
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*--------------------
+        Channels block
+    --------------------*/
+    .channels_block .col_left
+    {
+        width: 340px;
+        padding-top: 24px;
+    }
+
+
+    .channels_block .video_link
+    {
+        width: calc(100% - 780px);
+        height: 600px;
+    }
+
+
+    .channels_block .col_right
+    {
+        width: 360px;
+    }
+
+
+
     /*--------------
         Get free
     --------------*/
@@ -422,6 +724,11 @@
     .news .item .info
     {
         padding: 20px 16px 16px;
+    }
+
+    .news .item .info.no_border
+    {
+        padding: 20px 24px 0;
     }
 
 

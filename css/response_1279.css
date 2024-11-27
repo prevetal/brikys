@@ -11,7 +11,7 @@
         --sidebar_width_middle: 100%;
         --sidebar_width: 100%;
         --font_size: 15px;
-        --font_size_title_big: 50px;
+        --font_size_title_big: 42px;
         --font_size_title: 42px;
         --font_size_title_small: 36px;
     }
@@ -144,6 +144,23 @@
     }
 
 
+    header.partly_dark .location,
+    header.partly_dark .contacts .phone a,
+    header.partly_dark .links,
+    header.partly_dark .search,
+    header.partly_dark .favorite_link
+    {
+        color: #fff;
+    }
+
+
+    header.partly_dark .location .exp,
+    header.partly_dark .contacts .callback_btn
+    {
+        color: rgba(255, 255, 255, .50);
+    }
+
+
 
     /*-------------
         Sidebar
@@ -249,6 +266,242 @@
     {
         margin-top: 32px;
         margin-bottom: 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section:after
+    {
+        display: none;
+    }
+
+
+    .first_section .section:after
+    {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: 0;
+
+        display: block;
+
+        width: 100vw;
+        height: 600px;
+        max-height: 50%;
+
+        content: '';
+        pointer-events: none;
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, .00) 0%, #000 100%);
+    }
+
+
+    .first_section .data
+    {
+        position: relative;
+
+        height: auto;
+        padding: 40px 0 42px;
+
+        background: #e8e9eb;
+    }
+
+
+    .first_section .head
+    {
+        width: 100%;
+        height: auto;
+        padding-top: 246px;
+    }
+
+
+    .first_section .head:before
+    {
+        right: -24px;
+    }
+
+
+    .first_section .head:after
+    {
+        display: none;
+    }
+
+
+    .first_section .head .title
+    {
+        font-size: 72px;
+    }
+
+
+    .first_section .bottom
+    {
+        width: 720px;
+        max-width: 100%;
+        padding: 60px 0 68px 0;
+    }
+
+
+    .first_section .bottom .title
+    {
+        font-size: 26px;
+    }
+
+
+    .first_section .img
+    {
+        width: 100%;
+    }
+
+
+    .first_section .data .sticky
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+
+    /*------------------
+        Catalog grid
+    ------------------*/
+    .catalog_grid .row > *
+    {
+        width: calc(33.333% - 16px);
+    }
+
+
+    .catalog_grid .category .name
+    {
+        font-size: 24px;
+    }
+
+
+    .catalog_grid .sale_link
+    {
+        padding: 24px;
+    }
+
+
+    .catalog_grid .sale_link .title
+    {
+        font-size: 28px;
+    }
+
+
+    .catalog_grid .sale_link .desc
+    {
+        padding-right: 80px;
+    }
+
+
+    .catalog_grid .sale_link .btn
+    {
+        right: 24px;
+        bottom: 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+
+    .about_info .block_head .pre_title
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .about_info .block_head .title
+    {
+        font-size: 56px;
+    }
+
+
+    .about_info .block_head .desc
+    {
+        font-size: 16px;
+
+        margin-top: 32px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(100% - 440px);
+    }
+
+
+    .about_info .col_right
+    {
+        width: 400px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project
+    {
+        min-height: 300px;
+        padding: 24px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 28px;
+
+        width: 240px;
+    }
+
+
+    .projects .project .desc
+    {
+        line-height: 20px;
+
+        width: 248px;
+    }
+
+
+    .projects .project .btn
+    {
+        right: 24px;
+        bottom: 24px;
+    }
+
+
+
+    /*---------------------
+        Official dealer
+    ---------------------*/
+    .official_dealer .col_left
+    {
+        width: calc(100% - 384px);
+    }
+
+
+    .official_dealer .col_right
+    {
+        width: 344px;
+        padding: 28px;
+    }
+
+
+    .official_dealer .logo
+    {
+        height: 180px;
     }
 
 
@@ -391,6 +644,51 @@
     .news .item .info
     {
         padding: 20px 14px;
+    }
+
+
+    .news .swiper-slide
+    {
+        width: 400px;
+    }
+
+
+
+    /*--------------------
+        Channels block
+    --------------------*/
+    .channels_block .col_left
+    {
+        width: 360px;
+        padding-top: 0;
+    }
+
+
+    .channels_block .col_right
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+
+    .channels_block .video_link
+    {
+        width: calc(100% - 400px);
+        height: 474px;
+    }
+
+
+    .channels_block .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .channels_block .text_block
+    {
+        line-height: 23px;
+
+        width: 100%;
     }
 
 

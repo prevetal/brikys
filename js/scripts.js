@@ -54,6 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
 					spaceBetween: 8,
 					slidesPerView: 'auto'
 				},
+				1280: {
+					spaceBetween: 24,
+					slidesPerView: 3
+				},
 				1440: {
 					spaceBetween: 24,
 					slidesPerView: 4
@@ -201,15 +205,11 @@ document.addEventListener('DOMContentLoaded', function () {
 					spaceBetween: 12,
 					slidesPerView: 'auto'
 				},
-				480: {
-					spaceBetween: 20,
+				1280: {
+					spaceBetween: 24,
 					slidesPerView: 2
 				},
-				768: {
-					spaceBetween: 30,
-					slidesPerView: 3
-				},
-				1280: {
+				1440: {
 					spaceBetween: 40,
 					slidesPerView: 2
 				}
@@ -241,16 +241,13 @@ document.addEventListener('DOMContentLoaded', function () {
 			lazy: true,
 			breakpoints: {
 				0: {
-					spaceBetween: 40,
-				},
-				480: {
-					spaceBetween: 40,
+					spaceBetween: 12
 				},
 				768: {
-					spaceBetween: 40,
+					spaceBetween: 24
 				},
-				1280: {
-					spaceBetween: 40,
+				1440: {
+					spaceBetween: 40
 				}
 			}
 		}

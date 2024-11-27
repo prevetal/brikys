@@ -291,9 +291,187 @@
     /*----------------
         Block head
     ----------------*/
+    .block_head .tabs
+    {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+
+
     .block_head .title.mob_small
     {
         font-size: var(--font_size_title_small);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .head .title
+    {
+        font-size: 64px;
+    }
+
+
+
+    /*------------------
+        Catalog grid
+    ------------------*/
+    .catalog_grid
+    {
+        padding-bottom: 0;
+    }
+
+
+    .catalog_grid .row > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .catalog_grid .sale_link
+    {
+        height: 220px;
+    }
+
+
+    .catalog_grid .sale_link .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head .title
+    {
+        font-size: 48px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(100% - 304px);
+    }
+
+
+    .about_info .boss
+    {
+        height: 600px;
+    }
+
+
+    .about_info .boss .info
+    {
+        padding: 28px;
+    }
+
+
+    .about_info .col_right
+    {
+        width: 280px;
+    }
+
+
+    .about_info .text_block
+    {
+        line-height: 22px;
+    }
+
+
+    .about_info .feedback_btn
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .swiper-horizontal > .swiper-pagination-bullets,
+    .projects .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .projects .swiper-pagination-custom,
+    .projects .swiper-pagination-fraction
+    {
+        right: 0;
+        bottom: -24px;
+
+        justify-content: center;
+
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 26px;
+
+        width: 200px;
+    }
+
+
+    .projects .project .logo
+    {
+        width: 120px;
+        height: 60px;
+    }
+
+
+    .projects .project .btn
+    {
+        display: none;
+    }
+
+
+
+    /*---------------------
+        Official dealer
+    ---------------------*/
+    .official_dealer .data
+    {
+        padding: 48px 0;
+    }
+
+
+    .official_dealer .col_left
+    {
+        width: 100%;
+    }
+
+
+    .official_dealer .col_right
+    {
+        width: 100%;
+        margin-top: 40px;
+        padding: 24px;
+    }
+
+
+
+    /*--------------------
+        Channels block
+    --------------------*/
+    .channels_block .col_left
+    {
+        width: 340px;
+    }
+
+
+    .channels_block .video_link
+    {
+        width: calc(100% - 364px);
+        height: 488px;
     }
 
 
@@ -434,6 +612,19 @@
     .news .list .item .name
     {
         font-size: 15px;
+    }
+
+
+    .news .swiper-slide
+    {
+        width: 340px;
+    }
+
+
+    .news .swiper-button-next,
+    .news .swiper-button-prev
+    {
+        display: none;
     }
 
 
