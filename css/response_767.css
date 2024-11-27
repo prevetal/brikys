@@ -976,6 +976,312 @@
 
 
 
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        margin-bottom: 20px;
+
+        gap: 20px;
+    }
+
+
+    .product_info .images .stickers
+    {
+        top: 10px;
+        left: 10px;
+    }
+
+
+    .product_info .images .swiper-button-next,
+    .product_info .images .swiper-button-prev
+    {
+        width: 47px;
+        height: 35px;
+    }
+
+
+    .product_info .images .swiper-button-prev
+    {
+        left: 10px;
+    }
+
+    .product_info .images .swiper-button-next
+    {
+        right: 10px;
+    }
+
+
+    .product_info .data > .head
+    {
+        gap: 16px;
+    }
+
+
+    .product_info .brand
+    {
+        width: 100%;
+    }
+
+
+    .product_info .prices .vals > *
+    {
+        gap: 4px;
+    }
+
+
+    .product_info .wall_area .label
+    {
+        font-size: 18px;
+    }
+
+
+    .product_info .wall_area .label .exp
+    {
+        font-size: 13px;
+
+        width: 120px;
+        margin-top: 8px;
+    }
+
+
+    .product_info .wall_area .field
+    {
+        width: 140px;
+        margin-left: 8px;
+    }
+
+
+    .product_info .wall_area .input
+    {
+        font-size: 13px;
+
+        height: 54px;
+        padding: 0 18px;
+    }
+
+
+    .product_info .wall_area .unit
+    {
+        width: 72px;
+        margin-left: 8px;
+    }
+
+
+    .product_info .wall_area .nice-select .current
+    {
+        font-size: 13px;
+
+        height: 54px;
+        padding: 0 31px 0 18px;
+    }
+
+
+    .product_info .wall_area .arr
+    {
+        right: 12px;
+    }
+
+
+    .product_info .amount
+    {
+        width: 100%;
+    }
+
+
+    .product_info .buy_btn
+    {
+        width: 100%;
+        height: 64px;
+        margin-top: 10px;
+        padding: 0 24px;
+    }
+
+
+    .product_info .calc_solution .head
+    {
+        height: 64px;
+        padding: 8px 24px;
+    }
+
+
+    .product_info .calc_solution .info
+    {
+        padding: 0 24px 24px;
+    }
+
+
+    .product_info .calc_solution .buy_btn
+    {
+        justify-content: center;
+
+        width: 100%;
+        height: 64px;
+        padding: 0 24px;
+
+        gap: 12px;
+    }
+
+
+    .product_info .links
+    {
+        margin-top: 32px;
+    }
+
+
+    .product_info .exp
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 24px;
+
+        gap: 6px;
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .product_data .channels .info
+    {
+        padding: 0;
+    }
+
+
+    .product_data .channels .title
+    {
+        font-size: 28px;
+    }
+
+
+    .product_data .channels .stats
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .product_data .channels .links a
+    {
+        justify-content: center;
+
+        width: 120px;
+        padding: 8px 12px;
+    }
+
+
+    .product_data .channels .links .icon
+    {
+        display: none;
+    }
+
+
+
+    .product_data .gift_banner
+    {
+        padding-bottom: 233px;
+    }
+
+
+    .product_data .gift_banner .title
+    {
+        font-size: 28px;
+    }
+
+
+    .product_data .gift_banner .phone
+    {
+        padding-top: 32px;
+    }
+
+
+    .product_data .gift_banner .link
+    {
+        right: auto;
+        left: 50%;
+
+        width: 272px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .product_data .gift_banner .link a
+    {
+        font-size: 13px;
+
+        padding: 8px 12px;
+    }
+
+
+    .product_data .gift_banner .image
+    {
+        top: auto;
+        bottom: 0;
+
+        width: 100%;
+        max-width: 100%;
+        height: 203px;
+
+        border-radius: 80px 80px 0 0;
+    }
+
+
+
+    /*---------------
+        Buy steps
+    ---------------*/
+    .buy_steps .row
+    {
+        margin-left: 0;
+    }
+
+
+    .buy_steps .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .buy_steps .item
+    {
+        position: relative;
+
+        min-height: 56px;
+        padding-left: 80px;
+    }
+
+
+    .buy_steps .item .icon
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 56px;
+        height: 56px;
+        margin: 0;
+    }
+
+
+    .buy_steps .item .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

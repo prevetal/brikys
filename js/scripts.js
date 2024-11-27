@@ -79,6 +79,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 
+	$('.products .list').addClass('grid').removeClass('list')
+
+
 	// Contacts info slider
 	const contactsInfoSliders = [],
 		contactsInfo = document.querySelectorAll('.contacts_info .images .swiper')
@@ -765,6 +768,12 @@ window.addEventListener('resize', function () {
 
 			productsHeight(el, parseInt(styles.getPropertyValue('--count')))
 		})
+
+
+		// Products
+		if (WW < 1900) {
+			$('.products .list').addClass('grid').removeClass('list')
+		}
 
 
 		// Mob. version

@@ -739,6 +739,161 @@
 
 
 
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .product_info .data
+    {
+        width: 100%;
+    }
+
+
+    .product_info .product_name
+    {
+        font-size: 28px;
+    }
+
+
+    .product_info .line
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .product_data .tab_content.active
+    {
+        width: calc(100% - 304px);
+        max-width: calc(100% - 304px);
+    }
+
+
+    .product_data .features > *
+    {
+        line-height: 21px;
+
+        padding: 11px 16px;
+    }
+
+
+    .product_data .channels
+    {
+        margin-top: 48px;
+        padding: 24px;
+    }
+
+
+    .product_data .channels .pre_title
+    {
+        font-size: 18px;
+    }
+
+
+    .product_data .channels .title
+    {
+        font-size: 28px;
+    }
+
+
+    .product_data .gift_banner .title
+    {
+        font-size: 28px;
+    }
+
+
+    .product_data .gift_banner
+    {
+        margin-top: 48px;
+        padding: 24px;
+    }
+
+
+    .product_data .gift_banner .link
+    {
+        right: 24px;
+        bottom: 24px;
+    }
+
+
+    .product_data .manager
+    {
+        width: 280px;
+        padding: 3px;
+    }
+
+
+    .product_data .manager .info
+    {
+        padding: 20px 10px 10px;
+    }
+
+
+    .product_data .manager .title
+    {
+        font-size: 13px;
+    }
+
+
+    .product_data .manager .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*---------------
+        Buy steps
+    ---------------*/
+    .buy_steps .data
+    {
+        padding: 48px 0;
+    }
+
+
+    .buy_steps .row
+    {
+        margin-bottom: -48px;
+    }
+
+
+    .buy_steps .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 48px;
+    }
+
+
+    .buy_steps .ya_widget .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .buy_steps .ya_widget
+    {
+        margin-top: -24px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

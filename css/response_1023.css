@@ -288,6 +288,16 @@
 
 
 
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title.mob_small
+    {
+        font-size: var(--font_size_title_small);
+    }
+
+
+
     /*--------------
         Get free
     --------------*/
@@ -603,6 +613,120 @@
     .brands .row > *
     {
         width: calc(33.333% - 20px);
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .product_info .product_name
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .tabs_wrap
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px 32px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 20px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .product_data .tabs_wrap::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .product_data .tabs_wrap::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .product_data .tabs
+    {
+        width: 923px;
+    }
+
+
+    .product_data .tab_content.active
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .product_data .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .product_data .channels .pre_title
+    {
+        font-size: 16px;
+    }
+
+
+    .product_data .channels .title
+    {
+        font-size: 26px;
+    }
+
+
+    .product_data .gift_banner .title
+    {
+        font-size: 26px;
+    }
+
+
+    .product_data .manager
+    {
+        width: 335px;
+        margin: 40px auto 0;
+    }
+
+
+
+    /*---------------
+        Buy steps
+    ---------------*/
+    .buy_steps .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .buy_steps .ya_widget
+    {
+        margin-top: 0;
     }
 
 

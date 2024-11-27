@@ -434,6 +434,164 @@
 
 
 
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .delivery_methods
+    {
+        gap: 0;
+    }
+
+
+    .product_info .delivery_methods label div
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        padding: 12px;
+    }
+
+
+    .product_info .prices .vals
+    {
+        padding: 16px 8px 8px;
+    }
+
+
+    .product_info .prices .vals .label
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .product_info .prices .vals .val
+    {
+        font-size: 22px;
+    }
+
+    .product_info .prices .vals .old
+    {
+        font-size: 12px;
+    }
+
+
+    .product_info .wall_area .label
+    {
+        font-size: 16px;
+    }
+
+
+    .product_info .wall_area .label .exp
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        width: 112px;
+    }
+
+
+    .product_info .wall_area .field
+    {
+        width: 100px;
+    }
+
+
+    .product_info .wall_area .unit
+    {
+        width: 68px;
+    }
+
+
+    .product_info .features
+    {
+        font-size: 12px;
+    }
+
+
+    .product_info .exp
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .features > *
+    {
+        line-height: 16px;
+
+        padding: 10px 12px;
+    }
+
+
+
+    .product_data .channels
+    {
+        width: calc(100% + 24px);
+        margin: 40px -12px 0;
+        padding: 24px 12px;
+    }
+
+
+    .product_data .channels .stats .subscribers,
+    .product_data .channels .stats .videos,
+    .product_data .channels .stats .logo
+    {
+        font-size: 12px;
+
+        width: 108px;
+        height: 108px;
+    }
+
+
+    .product_data .channels .links a
+    {
+        width: 90px;
+    }
+
+
+    .product_data .channels .links .logo
+    {
+        width: auto;
+        height: auto;
+    }
+
+
+    .product_data .gift_banner
+    {
+        width: calc(100% + 24px);
+        margin: 40px -12px 0;
+        padding: 24px 12px 233px;
+    }
+
+
+    .product_data .manager
+    {
+        padding: 9px;
+    }
+
+
+
+    /*---------------
+        Buy steps
+    ---------------*/
+    .buy_steps .data
+    {
+        padding: 24px 0;
+    }
+
+
+    .buy_steps .item .desc
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

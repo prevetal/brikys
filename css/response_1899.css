@@ -185,6 +185,21 @@
     }
 
 
+    .products .grid
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+
+    .products .grid > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
 
     /*------------
         Footer

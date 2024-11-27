@@ -9505,8 +9505,7 @@ aside .categories .items a.active .arr
 {
     position: relative;
 
-    width: 100px;
-    max-width: 100%;
+    width: calc(100% - 140px);
 }
 
 
@@ -9679,6 +9678,7 @@ aside .categories .items a.active .arr
 
     transition: transform .2s linear;
     transform: rotate(90deg);
+    pointer-events: none;
 }
 
 
