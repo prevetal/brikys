@@ -43,6 +43,12 @@
     }
 
 
+    .block_head.pad_r
+    {
+        padding: 0;
+    }
+
+
 
     .content_flex .content,
     .content_flex .content.small,
@@ -169,6 +175,12 @@
     .block_head.small_m
     {
         margin-bottom: 48px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(100% + 8px);
     }
 
 
@@ -389,6 +401,167 @@
     .compare_info aside
     {
         margin-bottom: 0;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .data
+    {
+        width: 100%;
+        padding-right: 0;
+    }
+
+
+    .cart_info .data:after
+    {
+        display: none;
+    }
+
+
+    .cart_info .checkout
+    {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+
+
+    /*--------------
+        Checkout
+    --------------*/
+    .checkout .title
+    {
+        font-size: 28px;
+    }
+
+
+    .checkout .desc
+    {
+        line-height: 23px;
+
+        margin-top: 24px;
+    }
+
+
+    .checkout .form
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*------------------------
+        Categories catalog
+    ------------------------*/
+    .categories_catalog .row > *
+    {
+        width: calc(33.333% - 40px);
+    }
+
+
+    .categories_catalog .category .main
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-slide
+    {
+        width: 335px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .products .grid
+    {
+        margin-bottom: -16px;
+        margin-left: -16px;
+
+        --count: 3;
+    }
+
+
+    .products .grid > *
+    {
+        width: calc(33.333% - 16px);
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+    .products .product
+    {
+        padding: 3px 3px 17px;
+    }
+
+
+    .products .product .info
+    {
+        padding: 16px 12px 0;
+    }
+
+
+    .products .product .btns
+    {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+
+    .products .product .link
+    {
+        font-size: 13px;
+
+        width: 140px;
+        padding: 0 16px;
+    }
+
+
+    .products .product .buy_btn
+    {
+        font-size: 13px;
+
+        width: calc(100% - 148px);
+        padding: 0 16px;
+    }
+
+
+    .products .product .thumb
+    {
+        height: 160px;
+    }
+
+    .products .product .btns
+    {
+        display: flex;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head
+    {
+        margin-bottom: 32px;
     }
 
 

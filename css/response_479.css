@@ -131,28 +131,15 @@
     }
 
 
-    .compare_info.content_flex .content
-    {
-        width: calc(100% + 24px);
-        max-width: calc(100% + 24px);
-        margin-right: -12px;
-        margin-left: -12px;
-    }
-
-
-    .compare_info .product .features
-    {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 0;
-    }
-
-
     .compare_info .product .features > *
     {
-        font-size: 12px;
+        padding: 28px 12px 12px;
+    }
 
-        padding: 12px 16px;
+
+    .compare_info .product .features .label
+    {
+        padding: 0 12px;
     }
 
 
@@ -190,8 +177,8 @@
 
 
     /*------------------
-            Photogallery
-        ------------------*/
+        Photogallery
+    ------------------*/
     .photogallery .grid
     {
         margin-bottom: -24px;
@@ -226,6 +213,15 @@
         line-height: 18px;
     }
 
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info .sub_categories .row
+    {
+        gap: 6px;
+    }
 
 
 

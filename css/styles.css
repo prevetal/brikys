@@ -6744,6 +6744,7 @@ aside .categories .items a.active .arr
 
     width: 345px;
     max-width: 100%;
+    margin-top: 0;
     margin-left: auto;
     padding-top: 0;
     padding-left: 75px;
@@ -11081,6 +11082,8 @@ aside .categories .items a.active .arr
     font-size: 14px;
     line-height: 125.481%;
 
+    position: relative;
+
     display: flex;
     align-content: center;
     align-items: center;
@@ -11098,6 +11101,26 @@ aside .categories .items a.active .arr
 .compare_info .product .features > *:nth-child(2n+1)
 {
     background: rgba(36, 38, 44, .06);
+}
+
+
+.compare_info .product .features .label
+{
+    font-size: 12px;
+
+    position: absolute;
+    top: 8px;
+    left: 0;
+
+    display: none;
+    overflow: hidden;
+
+    width: 100%;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: rgba(36, 38, 44, .50);
 }
 
 

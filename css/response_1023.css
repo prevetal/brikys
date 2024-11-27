@@ -465,6 +465,84 @@
 
 
 
+    /*------------------------
+        Categories catalog
+    ------------------------*/
+    .categories_catalog .row > *
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    /*---------------------
+        Categories grid
+    ---------------------*/
+    .categories_grid .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .category_info .sub_categories
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .category_info .sub_categories .row
+    {
+        gap: 8px;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head {
+        margin-bottom: 24px;
+    }
+
+
+    .products_head .reset_filter_btn
+    {
+        display: none;
+    }
+
+
+    .products_head .count
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .grid {
+        --count: 2;
+    }
+
+
+    .products .grid > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+
     /*------------
         Footer
     ------------*/

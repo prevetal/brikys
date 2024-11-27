@@ -176,6 +176,16 @@
 
 
 
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head .views
+    {
+        display: none;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

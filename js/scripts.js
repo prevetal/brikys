@@ -51,18 +51,14 @@ document.addEventListener('DOMContentLoaded', function () {
 			lazy: true,
 			breakpoints: {
 				0: {
-					spaceBetween: 12,
+					spaceBetween: 8,
 					slidesPerView: 'auto'
 				},
-				480: {
-					spaceBetween: 20,
-					slidesPerView: 2
+				1440: {
+					spaceBetween: 24,
+					slidesPerView: 4
 				},
-				768: {
-					spaceBetween: 30,
-					slidesPerView: 3
-				},
-				1280: {
+				1900: {
 					spaceBetween: 40,
 					slidesPerView: 4
 				}
