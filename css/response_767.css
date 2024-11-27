@@ -267,6 +267,17 @@
 
 
 
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 54px;
+        padding: 0 21px;
+    }
+
+
+
     /*--------------
         Get free
     --------------*/
@@ -659,6 +670,10 @@
 
     .cart_info .product .thumb
     {
+        position: absolute;
+        top: 20px;
+        left: 0;
+
         width: 140px;
         height: 84px;
     }
@@ -667,6 +682,76 @@
     .cart_info .product .info
     {
         width: 100%;
+    }
+
+
+    .cart_info .product .name
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        min-height: 84px;
+        padding-left: 160px;
+    }
+
+
+    .cart_info .product .amount .input
+    {
+        font-size: 16px;
+    }
+
+
+    .cart_info .product .delete_btn
+    {
+        top: 20px;
+    }
+
+
+    .cart_info .cart_total .total_price
+    {
+        font-size: 26px;
+    }
+
+
+    .cart_info .cart_total .total_price .exp
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 8px;
+    }
+
+
+    .cart_info .additional
+    {
+        margin-top: 32px;
+        padding: 24px;
+    }
+
+
+    .cart_info .additional .exp
+    {
+        font-size: 13px;
+
+        margin-top: 16px;
+    }
+
+
+    .cart_info .checkout
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*--------------
+        Checkout
+    --------------*/
+    .checkout .desc
+    {
+        line-height: 19px;
+
+        margin-top: 20px;
     }
 
 

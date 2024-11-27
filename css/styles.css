@@ -5530,7 +5530,7 @@ aside .categories .items a.active .arr
 }
 
 
-.cart_info .cart_total .totla_price
+.cart_info .cart_total .total_price
 {
     font-size: 30px;
     font-weight: 500;
@@ -5539,7 +5539,7 @@ aside .categories .items a.active .arr
 }
 
 
-.cart_info .cart_total .totla_price span
+.cart_info .cart_total .total_price span
 {
     font-weight: 600;
 
@@ -5549,13 +5549,13 @@ aside .categories .items a.active .arr
 }
 
 
-.cart_info .cart_total .totla_price small
+.cart_info .cart_total .total_price small
 {
     font-size: 14px;
 }
 
 
-.cart_info .cart_total .totla_price .exp
+.cart_info .cart_total .total_price .exp
 {
     font-size: 14px;
     font-weight: 500;

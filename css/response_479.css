@@ -592,6 +592,108 @@
 
 
 
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .product + .product
+    {
+        margin-top: 20px;
+    }
+
+
+    .cart_info .product .name
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        padding-right: 0;
+    }
+
+
+    .cart_info .product .name a
+    {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+
+        -webkit-line-clamp: 2;
+    }
+
+
+    .cart_info .product .price .label
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .cart_info .product .amount
+    {
+        width: 108px;
+        margin-left: 20px;
+    }
+
+
+    .cart_info .product .amount .btn
+    {
+        left: 10px;
+    }
+
+
+    .cart_info .product .amount .btn.plus
+    {
+        right: 10px;
+    }
+
+
+    .cart_info .product .price.total
+    {
+        margin-left: auto;
+    }
+
+
+    .cart_info .product .delete_btn
+    {
+        top: 64px;
+    }
+
+
+    .cart_info .cart_total .total_price
+    {
+        font-size: 24px;
+
+        width: 100%;
+    }
+
+
+    .cart_info .cart_total .download
+    {
+        margin-top: 16px;
+    }
+
+
+    .cart_info .additional
+    {
+        padding: 24px 20px;
+    }
+
+
+    .cart_info .additional .checkbox
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+    .cart_info .additional .exp
+    {
+        font-size: 12px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
