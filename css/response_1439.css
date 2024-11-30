@@ -557,21 +557,21 @@
     }
 
 
-    .official_dealer .col_right
+    .official_dealer .info
     {
         width: 420px;
         padding: 40px;
     }
 
 
-    .official_dealer .logo
+    .official_dealer .info .logo
     {
         height: 200px;
         margin-bottom: 40px;
     }
 
 
-    .official_dealer .link
+    .official_dealer .info .link
     {
         margin-top: 32px;
     }
@@ -1130,9 +1130,9 @@
     }
 
 
-    .about_page .history .item + .item
+    .about_page .history .sep
     {
-        margin-top: 80px;
+        margin-bottom: -32px;
     }
 
 

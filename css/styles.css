@@ -1049,7 +1049,7 @@ header .all_site .links
 
     padding: 20px;
 
-    color: #000;
+    color: #000 !important;
 
     gap: 7px;
 }
@@ -1693,6 +1693,51 @@ aside .categories .items a.active
 aside .categories .items a.active .arr
 {
     transform: rotate(-90deg) translateX(-2px);
+}
+
+
+
+aside .tabs
+{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+
+    gap: 0;
+}
+
+
+aside .tabs .btn
+{
+    font-size: 14px;
+    font-weight: 600;
+
+    display: block;
+
+    height: auto;
+    padding: 10px 0;
+
+    transition: color .2s linear;
+    text-align: left;
+
+    border: none;
+    border-bottom: 1px solid rgba(36, 38, 44, .12);
+    border-radius: 0;
+}
+
+aside .tabs .btn:first-child
+{
+    border-top: 1px solid rgba(36, 38, 44, .12);
+}
+
+
+aside .tabs .btn:hover,
+aside .tabs .btn.active
+{
+    color: #c22c47;
+    border-color: rgba(36, 38, 44, .12);
+    background: none;
 }
 
 
@@ -2762,9 +2807,16 @@ aside .categories .items a.active .arr
 }
 
 
-.first_section .data .search .tips a:hover
+.first_section .data .search .tips a:hover,
+.first_section .data .search .tips a.active
 {
     background: #fff;
+}
+
+
+.first_section .data .info
+{
+    display: none;
 }
 
 
@@ -3493,17 +3545,6 @@ aside .categories .items a.active .arr
 }
 
 
-.official_dealer .col_right
-{
-    width: 500px;
-    max-width: 100%;
-    padding: 50px 70px 70px;
-
-    border-radius: 10px;
-    background: #fff;
-}
-
-
 .official_dealer .block_head
 {
     margin-bottom: 40px;
@@ -3549,9 +3590,7 @@ aside .categories .items a.active .arr
     padding: 10px;
 
     transition: box-shadow .2s linear;
-    text-decoration: none;
 
-    color: currentColor;
     border: 1px solid rgba(0, 0, 0, .10);
     border-radius: 6px;
     background: #fff;
@@ -3567,13 +3606,27 @@ aside .categories .items a.active .arr
 }
 
 
-.official_dealer .logos .item:hover
+.official_dealer .logos .item:hover,
+.official_dealer .logos .item.active
 {
     box-shadow: inset 0 0 0 1px #000;
 }
 
 
-.official_dealer .logo
+.official_dealer .info
+{
+    display: none;
+
+    width: 500px;
+    max-width: 100%;
+    padding: 50px 70px 70px;
+
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+.official_dealer .info .logo
 {
     display: flex;
     align-content: center;
@@ -3586,7 +3639,7 @@ aside .categories .items a.active .arr
 }
 
 
-.official_dealer .logo img
+.official_dealer .info .logo img
 {
     display: block;
 
@@ -3595,13 +3648,13 @@ aside .categories .items a.active .arr
 }
 
 
-.official_dealer .text_block
+.official_dealer .info .text_block
 {
     line-height: 24px;
 }
 
 
-.official_dealer .link
+.official_dealer .info .link
 {
     display: flex;
 
@@ -3609,7 +3662,7 @@ aside .categories .items a.active .arr
 }
 
 
-.official_dealer .link a
+.official_dealer .info .link a
 {
     display: flex;
     align-content: center;
@@ -4205,9 +4258,7 @@ aside .categories .items a.active .arr
     padding: 30px;
 
     cursor: pointer;
-    text-decoration: none;
 
-    color: currentColor;
     border-radius: 10px;
     background: #fff;
 
@@ -11329,7 +11380,8 @@ aside .categories .items a.active .arr
     font-weight: 500;
     line-height: 30px;
 
-    position: relative;
+    position: sticky;
+    top: 0;
 
     display: flex;
     flex-direction: column;
@@ -11420,10 +11472,15 @@ aside .categories .items a.active .arr
 
 .about_page .commercial_developers .item
 {
+    position: relative;
+
     display: flex;
+    overflow: hidden;
     flex-direction: column;
 
     padding: 60px;
+
+    transition: color .2s linear;
 
     border-radius: 10px;
 }
@@ -11435,10 +11492,68 @@ aside .categories .items a.active .arr
     background: #c5bfb1;
 }
 
+
 .about_page .commercial_developers .item:nth-child(2)
 {
     color: #fff;
     background: #5b574c;
+}
+
+
+.about_page .commercial_developers .item > *
+{
+    position: relative;
+    z-index: 3;
+}
+
+
+.about_page .commercial_developers .item .thumb
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    transition: opacity .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+    border-radius: inherit;
+}
+
+
+.about_page .commercial_developers .item .thumb:after
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    border-radius: inherit;
+    background: rgba(36, 38, 44, .60);
+}
+
+
+.about_page .commercial_developers .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
 }
 
 
@@ -11478,6 +11593,19 @@ aside .categories .items a.active .arr
 {
     content: counter(number);
     counter-increment: number;
+}
+
+
+
+.about_page .commercial_developers .item:nth-child(1):hover,
+.about_page .commercial_developers .item:nth-child(2):hover
+{
+    color: #fff;
+}
+
+.about_page .commercial_developers .item:hover .thumb
+{
+    opacity: 1;
 }
 
 
@@ -11555,8 +11683,9 @@ aside .categories .items a.active .arr
     font-weight: 500;
     line-height: 20px;
 
-    position: relative;
+    position: sticky;
     z-index: 3;
+    top: 0;
 
     display: flex;
     flex-direction: column;
@@ -11807,9 +11936,13 @@ aside .categories .items a.active .arr
 }
 
 
-.about_page .history .item + .item
+.about_page .history .sep
 {
-    margin-top: 120px;
+    width: 4px;
+    height: 110px;
+    margin: 40px auto -40px;
+
+    background: #fff;
 }
 
 

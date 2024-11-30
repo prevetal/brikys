@@ -192,6 +192,84 @@
     }
 
 
+    aside .tabs
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px -16px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    aside .tabs::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    aside .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    aside .tabs .btn,
+    aside .tabs .btn:first-child
+    {
+        position: relative;
+
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+        padding: 2px 0;
+
+        vertical-align: top;
+
+        border: none;
+
+        scroll-snap-align: start;
+    }
+
+
+    aside .tabs .btn + .btn
+    {
+        margin-left: 25px;
+    }
+
+
+    aside .tabs .btn + .btn:before
+    {
+        position: absolute;
+        top: 0;
+        left: -13px;
+
+        display: block;
+
+        width: 1px;
+        height: 100%;
+
+        content: '';
+        pointer-events: none;
+
+        border-radius: 10px;
+        background: rgba(36, 38, 44, .12);
+    }
+
+
 
     /*----------------
         Block head
@@ -500,14 +578,14 @@
     }
 
 
-    .official_dealer .col_right
+    .official_dealer .info
     {
         width: 344px;
         padding: 28px;
     }
 
 
-    .official_dealer .logo
+    .official_dealer .info .logo
     {
         height: 180px;
     }
@@ -1330,9 +1408,11 @@
     }
 
 
-    .about_page .history .item + .item
+    .about_page .history .sep
     {
-        margin-top: 60px;
+        width: 3px;
+        height: 88px;
+        margin-bottom: -24px;
     }
 
 

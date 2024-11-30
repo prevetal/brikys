@@ -1794,31 +1794,31 @@
     }
 
 
-    .about_page .history .item + .item
+    .about_page .history .sep
     {
-        margin-top: 40px;
+        margin-top: 28px;
     }
 
 
     .about_page .history .year
     {
-        font-size: 140px;
+        font-size: 124px;
     }
 
 
     .about_page .history .item.gold .year:before
     {
-        margin-right: -12px;
+        margin-right: -24px;
 
-        transform: scale(.5);
+        transform: scale(.4);
     }
 
 
     .about_page .history .item.gold .year:after
     {
-        margin-left: -12px;
+        margin-left: -24px;
 
-        transform: scale(-1, 1) scale(.5);
+        transform: scale(-1, 1) scale(.4);
     }
 
 

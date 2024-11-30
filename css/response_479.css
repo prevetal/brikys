@@ -161,33 +161,33 @@
     }
 
 
-    .official_dealer .col_right
+    .official_dealer .info
     {
         margin-top: 32px;
         padding: 20px;
     }
 
 
-    .official_dealer .logo
+    .official_dealer .info .logo
     {
         height: 152px;
         margin-bottom: 20px;
     }
 
 
-    .official_dealer .text_block
+    .official_dealer .info .text_block
     {
         line-height: 20px;
     }
 
 
-    .official_dealer .link
+    .official_dealer .info .link
     {
         margin-top: 20px;
     }
 
 
-    .official_dealer .link a
+    .official_dealer .info .link a
     {
         width: 100%;
         height: 56px;
@@ -912,14 +912,23 @@
 
     .about_page .history .year
     {
-        font-size: 120px;
+        font-size: 100px;
     }
 
 
-    .about_page .history .item.gold .year:before,
+    .about_page .history .item.gold .year:before
+    {
+        margin-right: -36px;
+
+        transform: scale(.3);
+    }
+
+
     .about_page .history .item.gold .year:after
     {
-        display: none;
+        margin-left: -36px;
+
+        transform: scale(-1, 1) scale(.3);
     }
 
 

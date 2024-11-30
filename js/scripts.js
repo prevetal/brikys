@@ -566,6 +566,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		if ($(e.target).closest('.modal_cont').length === 0) {
 			$('.mini_modal, .mini_modal_btn').removeClass('active')
 
+			$('header .overlay').fadeOut(200)
+
 			if (is_touch_device()) $('body').css('cursor', 'default')
 		}
 	})
@@ -730,6 +732,30 @@ document.addEventListener('DOMContentLoaded', function () {
 			$(this).closest('.name').next().slideToggle(300)
 		})
 	}
+
+
+	// Official dealer
+	$('.official_dealer .logos .item').click(function(e) {
+		e.preventDefault()
+
+		$('.official_dealer .logos .item').removeClass('active')
+		$('.official_dealer .info').hide()
+
+		$(this).toggleClass('active')
+		$('.official_dealer .info' + $(this).data('info')).fadeIn(300)
+	})
+
+
+	// First section
+	$('.first_section .data .search .tips a').mouseenter(function(e) {
+		e.preventDefault()
+
+		$('.first_section .data .search .tips a').removeClass('active')
+		$('.first_section .data .info').hide()
+
+		$(this).addClass('active')
+		$('.first_section .data .info' + $(this).data('info')).fadeIn(300)
+	})
 })
 
 
