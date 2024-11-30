@@ -948,6 +948,7 @@
     /*------------------
         Photogallery
     ------------------*/
+    .photogallery .grid > *,
     .content .photogallery .grid > *,
     .photogallery .content .grid > *
     {

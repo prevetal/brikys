@@ -5198,7 +5198,9 @@ aside .tabs .btn.active
     margin-bottom: 14px;
 
     transition: border-color .2s linear;
+    text-decoration: none;
 
+    color: currentColor;
     border: 1px solid rgba(36, 38, 44, .12);
     border-radius: 8px;
     background: #fff;
@@ -5300,6 +5302,17 @@ aside .tabs .btn.active
     margin-top: 10px;
 
     transition: color .2s linear;
+}
+
+
+.photogallery .item .name a
+{
+    display: inline-block;
+
+    vertical-align: top;
+    text-decoration: none;
+
+    color: currentColor;
 }
 
 
@@ -7320,7 +7333,13 @@ aside .tabs .btn.active
 }
 
 
-.category_info .sub_categories a:not(.more_link)
+.category_info .sub_categories .hide
+{
+    display: none;
+}
+
+
+.category_info .sub_categories a
 {
     font-size: 14px;
 
@@ -7336,7 +7355,7 @@ aside .tabs .btn.active
 }
 
 
-.category_info .sub_categories .more_link
+.category_info .sub_categories .spoler_btn
 {
     font-size: 14px;
 
@@ -7356,7 +7375,13 @@ aside .tabs .btn.active
 }
 
 
-.category_info .sub_categories .more_link .icon
+.category_info .sub_categories .spoler_btn span + span
+{
+    display: none;
+}
+
+
+.category_info .sub_categories .spoler_btn .icon
 {
     display: block;
 
@@ -7364,6 +7389,18 @@ aside .tabs .btn.active
     height: 12px;
 
     color: var(--text_color);
+}
+
+
+.category_info .sub_categories .spoler_btn.active span
+{
+    display: none;
+}
+
+
+.category_info .sub_categories .spoler_btn.active span + span
+{
+    display: block;
 }
 
 
@@ -8403,6 +8440,22 @@ aside .tabs .btn.active
 .contacts_info .about .text_block ul.big_gap li > *
 {
     margin-bottom: 16px;
+}
+
+
+
+.contacts_info .map
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: calc(100% - 420px);
+
+    border-radius: 10px;
+    background: rgba(232, 233, 235, .50);
+
+    filter: grayscale(100%);
 }
 
 

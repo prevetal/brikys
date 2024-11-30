@@ -664,6 +664,7 @@
     /*------------------
         Photogallery
     ------------------*/
+    .photogallery .grid > *,
     .content .photogallery .grid > *,
     .photogallery .content .grid > *
     {
@@ -797,9 +798,16 @@
 
 
     .contacts_info .about,
+    .contacts_info .map,
     .contacts_info .tab_content .col_right
     {
         width: 100%;
+    }
+
+
+    .contacts_info .map
+    {
+        min-height: 272px;
     }
 
 

@@ -756,6 +756,20 @@ document.addEventListener('DOMContentLoaded', function () {
 		$(this).addClass('active')
 		$('.first_section .data .info' + $(this).data('info')).fadeIn(300)
 	})
+
+
+	// Category sub categories
+	$('.category_info .sub_categories .spoler_btn').click(function(e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.sub_categories')
+
+		$(this).toggleClass('active')
+
+		$(this).hasClass('active')
+			? parent.find('.hide').fadeIn(200)
+			: parent.find('.hide').fadeOut(100)
+	})
 })
 
 

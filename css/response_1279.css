@@ -1536,6 +1536,18 @@
 
 
 
+    /*------------------
+        Photogallery
+    ------------------*/
+    .photogallery .grid > *,
+    .content .photogallery .grid > *,
+    .photogallery .content .grid > *
+    {
+        width: calc(25% - 20px);
+    }
+
+
+
     /*------------
         Footer
     ------------*/
