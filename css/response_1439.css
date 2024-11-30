@@ -911,6 +911,13 @@
     /*------------------
         Product data
     ------------------*/
+    .product_data .content_wrap
+    {
+        gap: 60px;
+    }
+
+
+
     .product_data .block_title
     {
         font-size: 28px;

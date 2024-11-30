@@ -692,6 +692,30 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 
+	// Product page - Payment method
+	$('.product_info .payment_methods label').click(function(e) {
+		let _self = $(this),
+			parent = $(this).closest('.prices')
+
+		if (e.target.nodeName === 'LABEL') {
+			parent.find('.border').hide()
+			parent.find('.border.info' + _self.data('info')).fadeIn(300)
+		}
+	})
+
+
+	// Product page - Delivery method
+	$('.product_info .delivery_methods label').click(function(e) {
+		let _self = $(this),
+			parent = $(this).closest('.border')
+
+		if (e.target.nodeName === 'LABEL') {
+			parent.find('.vals').hide()
+			parent.find('.vals.info' + _self.data('info')).fadeIn(300)
+		}
+	})
+
+
 	// Catalog
 	$('header .catalog .main a').mouseenter(function(e) {
 		let sub = $(this).data('sub')
@@ -770,6 +794,25 @@ document.addEventListener('DOMContentLoaded', function () {
 			? parent.find('.hide').fadeIn(200)
 			: parent.find('.hide').fadeOut(100)
 	})
+
+
+	// Smooth scrolling to anchor
+	const scrollBtns = document.querySelectorAll('.scroll_btn')
+
+	if (scrollBtns) {
+		scrollBtns.forEach(element => {
+			element.addEventListener('click', e => {
+				e.preventDefault()
+
+				let anchor = element.getAttribute('data-anchor')
+
+				document.getElementById(anchor).scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				}, 1000)
+			})
+		})
+	}
 })
 
 

@@ -1219,6 +1219,7 @@
     .products .grid > *
     {
         width: 100%;
+        height: auto !important;
         margin-left: 0;
     }
 
@@ -1381,10 +1382,20 @@
     /*------------------
         Product info
     ------------------*/
+    .product_info .mob_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .product_info .mob_head > .head
+    {
+        gap: 16px;
+    }
+
+
     .product_info .images
     {
-        margin-bottom: 20px;
-
         gap: 20px;
     }
 
@@ -1415,15 +1426,16 @@
     }
 
 
-    .product_info .data > .head
-    {
-        gap: 16px;
-    }
-
-
     .product_info .brand
     {
         width: 100%;
+    }
+
+
+    .product_info .brand .logo
+    {
+        width: 70px;
+        height: 26px;
     }
 
 
@@ -1547,6 +1559,12 @@
     /*------------------
         Product data
     ------------------*/
+    .product_data .content_wrap
+    {
+        gap: 48px;
+    }
+
+
     .product_data .block_title
     {
         font-size: 22px;

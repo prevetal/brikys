@@ -1126,28 +1126,41 @@
     /*------------------
         Product info
     ------------------*/
+    .product_info .mob_head,
+    .product_info .mob_head .product_name
+    {
+        display: block;
+    }
+
+
     .product_info .images
     {
+        position: relative;
+        top: 0;
+
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 0;
     }
 
 
     .product_info .data
     {
         width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .product_info .data > .head
+    {
+        display: none;
     }
 
 
     .product_info .product_name
     {
         font-size: 28px;
-    }
 
-
-    .product_info .line
-    {
-        margin-top: 40px;
+        display: none;
     }
 
 
@@ -1163,7 +1176,7 @@
     }
 
 
-    .product_data .tab_content.active
+    .product_data .content_wrap
     {
         width: calc(100% - 304px);
         max-width: calc(100% - 304px);

@@ -8832,15 +8832,41 @@ aside .tabs .btn.active
 
 
 
+.product_info .mob_head
+{
+    display: none;
+
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+
+.product_info .mob_head > .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: 20px;
+
+    gap: 30px;
+}
+
+
+
 .product_info .images
 {
-    position: relative;
+    position: sticky;
+    top: 0;
 
     display: flex;
     flex-direction: column;
 
     width: 600px;
     max-width: 100%;
+    margin-bottom: 80px;
 
     gap: 30px;
 }
@@ -8982,6 +9008,7 @@ aside .tabs .btn.active
 {
     width: 560px;
     max-width: 100%;
+    margin-bottom: 80px;
     margin-left: auto;
 }
 
@@ -9151,6 +9178,7 @@ aside .tabs .btn.active
 
     transition: .2s linear;
     text-align: center;
+    pointer-events: none;
 
     border: 1px solid #24262c;
     border-radius: 8px;
@@ -9167,6 +9195,8 @@ aside .tabs .btn.active
 
 .product_info .prices .border
 {
+    display: none;
+
     padding: 9px;
 
     border: 1px solid rgba(36, 38, 44, .12);
@@ -9209,6 +9239,7 @@ aside .tabs .btn.active
     padding: 11px 18px;
 
     transition: .2s linear;
+    pointer-events: none;
 
     color: rgba(36, 38, 44, .50);
     border-radius: 6px;
@@ -9225,17 +9256,19 @@ aside .tabs .btn.active
 
 .product_info .prices .vals
 {
-    display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: none;
 
     padding: 20px;
 }
 
 
-.product_info .prices .vals > *
+.product_info .prices .vals .row
+{
+    justify-content: space-between;
+}
+
+
+.product_info .prices .vals .row > *
 {
     display: flex;
     align-content: flex-end;
@@ -9981,7 +10014,7 @@ aside .tabs .btn.active
 {
     width: 100%;
     height: 1px;
-    margin: 80px auto 0;
+    margin: 0 auto;
 
     background: rgba(36, 38, 44, .12);
 }
@@ -9991,7 +10024,7 @@ aside .tabs .btn.active
 /*------------------
     Product data
 ------------------*/
-.product_data .tabs_wrap
+.product_data .anchors_wrap
 {
     display: flex;
 
@@ -9999,9 +10032,14 @@ aside .tabs .btn.active
 }
 
 
-.product_data .tabs
+.product_data .anchors
 {
-    margin: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
     padding: 5px;
 
     border-radius: 6px;
@@ -10011,23 +10049,23 @@ aside .tabs .btn.active
 }
 
 
-.product_data .tabs .btn
+.product_data .anchors .btn
 {
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
 
-    height: auto;
     padding: 11px 18px;
 
+    transition: .2s linear;
+
     color: rgba(36, 38, 44, .50);
-    border: none;
     border-radius: 6px;
 }
 
 
-.product_data .tabs .btn:hover,
-.product_data .tabs .btn.active
+.product_data .anchors .btn:hover,
+.product_data .anchors .btn.active
 {
     color: var(--text_color);
     background: #fff;
@@ -10036,16 +10074,15 @@ aside .tabs .btn.active
 
 
 
-.product_data .tab_content
+.product_data .content_wrap
 {
-    width: 0;
-}
+    display: flex;
+    flex-direction: column;
 
-
-.product_data .tab_content.active
-{
     width: 860px;
     max-width: calc(100% - 350px);
+
+    gap: 80px;
 }
 
 
@@ -10504,6 +10541,9 @@ aside .tabs .btn.active
 
 .product_data .manager
 {
+    position: sticky;
+    top: 0;
+
     width: 310px;
     max-width: 100%;
     margin-left: auto;
