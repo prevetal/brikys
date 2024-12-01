@@ -943,9 +943,25 @@
     /*-------------------
         Products head
     -------------------*/
-    .products_head
+    .products_head,
+    .products_head.small_m
     {
         margin-bottom: 32px;
+    }
+
+
+    .products_head .manufacturer .label,
+    .products_head .manufacturer .val
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+    .products_head .manufacturer .logo
+    {
+        width: 70px;
+        height: 40px;
     }
 
 
@@ -1557,6 +1573,34 @@
     .photogallery .content .grid > *
     {
         width: calc(25% - 20px);
+    }
+
+
+
+    /*---------------
+        Sale info
+    ---------------*/
+    .sale_info
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .sale_info .data
+    {
+        padding-bottom: 47px;
+    }
+
+
+    .sale_info .text_block
+    {
+        width: 548px;
+    }
+
+
+    .sale_info .img
+    {
+        width: 400px;
     }
 
 

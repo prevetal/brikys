@@ -207,6 +207,12 @@
     }
 
 
+    .page_title
+    {
+        line-height: 100%;
+    }
+
+
 
     /*----------------
         Typography
@@ -1196,6 +1202,12 @@
     /*-------------------
         Products head
     -------------------*/
+    .products_head .manufacturer
+    {
+        width: 100%;
+    }
+
+
     .products_head .sort
     {
         width: 100%;
@@ -1921,6 +1933,16 @@
     .clients .item .logo
     {
         height: 98px;
+    }
+
+
+
+    /*---------------
+        Sale info
+    ---------------*/
+    .sale_info .img
+    {
+        display: none;
     }
 
 

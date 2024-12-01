@@ -83,7 +83,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 
-	$('.products .list').addClass('grid').removeClass('list')
+	// Products
+	if (WW < 1900) {
+		$('.products .list').addClass('grid').removeClass('list')
+	}
 
 
 	// Contacts info slider

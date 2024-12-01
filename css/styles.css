@@ -1192,18 +1192,14 @@ header .all_site .feedback_btn span
 
 header .location
 {
+    display: flex;
+    flex-direction: column;
+
     margin-left: 120px;
 }
 
 
-header .location .city
-{
-    display: flex;
-    flex-direction: column;
-}
-
-
-header .location .city .current
+header .location .current
 {
     display: flex;
     align-content: center;
@@ -1215,7 +1211,7 @@ header .location .city .current
 }
 
 
-header .location .city .icon
+header .location .icon
 {
     display: block;
 
@@ -1231,6 +1227,37 @@ header .location .exp
     margin-top: 3px;
 
     color: rgba(0, 0, 0, .50);
+}
+
+
+header .location .mini_modal
+{
+    width: 200px;
+    margin-top: 8px;
+    padding: 15px;
+
+    border: 1px solid rgba(36, 38, 44, .12);
+    border-radius: 8px;
+    background: #fff;
+}
+
+
+header .location .mini_modal > * + *
+{
+    margin-top: 8px;
+}
+
+
+header .location .mini_modal .btn
+{
+    font-size: 14px;
+    line-height: 18px;
+
+    display: block;
+
+    width: 100%;
+
+    text-align: left;
 }
 
 
@@ -7494,6 +7521,11 @@ aside .tabs .btn.active
     margin-bottom: 60px;
 }
 
+.products_head.small_m
+{
+    margin-bottom: 30px;
+}
+
 
 .products_head .cont
 {
@@ -7577,6 +7609,71 @@ aside .tabs .btn.active
     white-space: nowrap;
 
     color: rgba(36, 38, 44, .50);
+}
+
+
+.products_head .manufacturer
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 20px;
+}
+
+
+.products_head .manufacturer .label
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+
+    color: rgba(36, 38, 44, .50);
+}
+
+
+.products_head .manufacturer .val
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 7px 19px 7px 7px;
+
+    border: 1px solid rgba(36, 38, 44, .12);
+    border-radius: 8px;
+
+    gap: 6px;
+}
+
+
+.products_head .manufacturer .logo
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 80px;
+    height: 50px;
+}
+
+
+.products_head .manufacturer .logo img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -7664,18 +7761,22 @@ aside .tabs .btn.active
     position: absolute;
     z-index: 9;
     top: 100%;
-    left: 0;
+    left: -16px;
 
     visibility: hidden;
     overflow: hidden;
 
-    width: 100%;
-    margin-top: 3px;
+    min-width: calc(100% + 32px);
+    margin-top: 12px;
+    padding: 3px 0;
 
     transition: .2s linear;
     transform: none;
 
     opacity: 0;
+    border: 1px solid rgba(36, 38, 44, .12);
+    border-radius: 8px;
+    background: #fff;
 }
 
 .products_head .sort .nice-select.open .nice-select-dropdown
@@ -7704,9 +7805,13 @@ aside .tabs .btn.active
 
 .products_head .sort .nice-select .list .option
 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+
     display: block;
 
-    padding: 6px 9px;
+    padding: 6px 15px;
 
     list-style-type: none;
 
@@ -12670,6 +12775,55 @@ aside .tabs .btn.active
 .letters .item:hover .icon
 {
     opacity: 1;
+}
+
+
+
+/*---------------
+    Sale info
+---------------*/
+.sale_info
+{
+    margin-bottom: 30px;
+}
+
+
+.sale_info .data
+{
+    position: relative;
+
+    padding-bottom: 69px;
+
+    border-bottom: 1px solid rgba(36, 38, 44, .12);
+}
+
+
+.sale_info .text_block
+{
+    position: relative;
+    z-index: 3;
+
+    width: 740px;
+    max-width: 100%;
+}
+
+
+.sale_info .text_block .big
+{
+    margin-bottom: 20px;
+}
+
+
+.sale_info .img
+{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+
+    pointer-events: none;
 }
 
 
