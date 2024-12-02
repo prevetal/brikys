@@ -795,9 +795,22 @@
     }
 
 
+    .cart_info .product .price .val
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
     .cart_info .product .price.total
     {
         margin-left: auto;
+    }
+
+
+    .cart_info .product .price.total:before
+    {
+        margin-right: 12px;
     }
 
 

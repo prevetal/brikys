@@ -893,6 +893,19 @@
     }
 
 
+    .compare_info .clear_btn_wrap
+    {
+        height: auto !important;
+        padding: 0;
+    }
+
+
+    .compare_info .clear_btn_wrap:after
+    {
+        display: none;
+    }
+
+
     .compare_info .clear_btn
     {
         font-size: 13px;
@@ -905,6 +918,18 @@
         max-width: calc(100% + 24px);
         margin-right: -12px;
         margin-left: -12px;
+    }
+
+
+    .compare_info .product .sticky
+    {
+        padding-top: 0;
+    }
+
+
+    .compare_info .product .delete_btn
+    {
+        top: 10px;
     }
 
 
@@ -1691,6 +1716,26 @@
 
         min-height: 56px;
         padding-left: 80px;
+    }
+
+
+    .buy_steps .item:after,
+    .buy_steps .item:nth-child(4):after
+    {
+        top: 68px;
+        left: 26px;
+
+        width: 1px;
+        height: calc(100% - 32px);
+
+        border: none;
+        border-left: 1px dashed rgba(255, 255, 255, .30);
+    }
+
+
+    .buy_steps .item:nth-child(4):after
+    {
+        border-left: 1px solid #c22c47;
     }
 
 

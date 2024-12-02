@@ -971,6 +971,12 @@
     }
 
 
+    .buy_steps .item:after
+    {
+        width: calc(100% - 80px);
+    }
+
+
     .buy_steps .item .name
     {
         font-size: 16px;

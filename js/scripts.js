@@ -945,4 +945,11 @@ function compareHeight() {	// Reset heights
 
 		featureLabels.eq(key).innerHeight(height)
 	})
+
+
+	let elements = document.querySelectorAll('.compare_info .clear_btn_wrap, .compare_info .product .sticky')
+
+	elements.forEach(el => el.style.height = 'auto')
+
+	setHeight(elements)
 }
