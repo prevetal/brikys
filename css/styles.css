@@ -2077,6 +2077,12 @@ aside .tabs .btn.active
 }
 
 
+.form .checkbox > *
+{
+    pointer-events: none;
+}
+
+
 .form .checkbox .check
 {
     position: absolute;
@@ -11306,9 +11312,9 @@ aside .tabs .btn.active
     z-index: 10;
     top: 0;
 
+    padding-top: 20px;
     padding-bottom: 21px;
 
-    padding-top: 20px;
     background: #fff;
 }
 
@@ -11427,9 +11433,9 @@ aside .tabs .btn.active
     z-index: 9;
     top: 0;
 
+    padding-top: 20px;
     padding-bottom: 21px;
 
-    padding-top: 20px;
     background: #fff;
 }
 
